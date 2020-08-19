@@ -8,11 +8,6 @@
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Como baixar e executar?](#-como-baixar-e-executar)
   - [Baixando o projeto](#%EF%B8%8F-baixando-o-projeto)
-  - [Preparando o ambiente](#-preparando-o-ambiente)
-    - [Bancos de dados e tabelas](#-bancos-de-dados-e-tabelas)
-    - [Variáveis de ambiente](#-variáveis-de-ambiente)
-  - [Executando a API](#-executando-a-api)
-- [Rotas da API](#-rotas-da-api)
 
 ## 🏷️ Sobre
 
