@@ -1,0 +1,172 @@
+.container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin: 0 4.1rem 0 7rem;    
+}
+
+.text {
+    width: 100%;
+}
+
+.text p {
+    color: #fff;
+    font-family: 'Roboto', sans-sarif;
+}
+
+.text p.first-paragraph {
+    font-size: 2.18rem;
+    line-height: 2.56rem;
+    letter-spacing: -0.08rem;
+    margin: 0;
+}
+
+.text h1 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 5.62rem;
+    line-height: 8.81rem;
+    color: #fff;
+    letter-spacing: 0.29rem;
+    margin: 0;
+}
+
+.text .mobileApp  {
+    width: 26rem;
+    display: none;
+}
+
+.text .informations {
+    margin-top: 2rem;
+}
+
+.text .informations,
+.text .online-store {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text .online-store {
+    margin: 2rem 18rem 0 0;
+}
+
+.text .online-store a {
+    text-decoration: none;
+}
+
+.text .online-store img {
+    margin: -0.5rem 0 0 1rem;
+}
+
+.text .apple-store,
+.text .google-play {
+    border: 2px solid #fff;
+    border-radius: 0.8rem;
+    width: 12rem;
+    height: 3.5rem;
+}
+
+.text .apple-store a,
+.text .google-play a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text .apple-store a p,
+.text .google-play a p {
+    font-size: 0.7rem;
+    margin-right: 1rem
+}
+
+.text .apple-store a p {
+    margin-right: 2rem;
+}
+
+.text .apple-store span,
+.text .google-play span {
+    font-size: 1.4rem;
+}
+
+.appTrigg {
+    width: 100%;
+}
+
+.appTrigg img {
+    width: 26rem;   
+}
+
+@media (max-width: 1100px) {
+
+    .container {
+        grid-template-columns: 4fr;
+    }
+
+    .appTrigg {
+        display: none;
+    }
+
+    .informations div {
+        margin-right: 2rem;
+    }
+
+    img#appMobile{
+        display: block;
+        margin-left: 14rem;
+    }
+
+    .text .online-store {
+        margin-right: 25rem;
+    }
+}
+
+@media (max-width: 492px) {
+    .text {
+        margin-left: -5rem;
+    }
+
+    .text p.first-paragraph {
+        margin-left: 2rem;
+        font-size: 2rem;
+    }
+
+    .text h1 {
+        font-size: 3.6rem;
+        letter-spacing: 0;
+        margin-top: -2rem;
+    }
+
+    img#appMobile {
+        margin-left: 2rem;
+        width: 21rem;
+    }
+
+    .text .informations {
+        display: block;
+    }
+
+    .manage,
+    .we-give-back,
+    .card,
+    .shield {
+        display: flex;
+    }
+
+    .text .informations p {
+        margin: 0.86rem;
+    }
+
+    .text .informations div {
+        margin-bottom: 1rem;
+    }
+
+    .text .apple-store {
+        margin-right: 1rem;
+    }
+
+    .text .online-store img {
+        margin: 0 0.3rem 0 0.8rem;
+    }
+
+    .text .apple-store span, .text .google-play span {
+        font-size: 1.1rem;
+    }
+}

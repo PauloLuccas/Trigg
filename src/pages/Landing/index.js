@@ -3,8 +3,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import imgLogo from '../../componentes/assets/images/logo-trigg.png';
+import loginIcon from '../../componentes/assets/images/Shape.svg';
+import menuIcon from '../../componentes/assets/images/menu.png';
 
-import './style.css'
+import './style.css';
 
 function Landing() {
     return (
@@ -30,27 +32,26 @@ function Landing() {
                     </div>
 
                     <div className="tag-header">
-                        <p>TAG</p>
+                        <p>Dúvidas?</p>
                     </div>
                     
                     <div className="button-header">
-                        <Link to="/criar-conta">
-                            <p>CRIAR MINHA CONTA</p>
-                        </Link>
-
                         <Link to="login">
-                            <p>Acessar Conta</p>
+                            <img src={loginIcon} alt="Icon"></img>
+                            Acessar Conta
                         </Link>
                     </div>
+
+                    <button id="menu-mobile" className="menu-button">
+                        <img src={menuIcon} alt="Menu Icon"/>
+                    </button>
                 </div>
             </header>
 
             <div className="page-landing">
-                <h1>Em construção...</h1>
+                <h1>Em construção....</h1>
             </div>
         </div>
-
-        
     );
 }
 

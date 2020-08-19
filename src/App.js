@@ -1,13 +1,13 @@
 import React from 'react';
-
-import Routes from './routes';
+import Header from './componentes/Header';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Routes />
+      <Header />
+      <h1>Em construção...</h1>
     </div>
   );
 }
