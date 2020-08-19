@@ -94,10 +94,37 @@
     width: 26rem;   
 }
 
+.social-networks {
+    position: absolute;
+    top: 31.5rem;
+    right: 10rem;
+}
+
+.social-networks img {
+    display: flex;
+    align-content: space-between;
+    width: 1.2rem;
+    margin: 0.6rem;
+}
+
+@media (max-width: 1300px) {
+    .social-networks {
+        display: none;
+    }
+}
+
 @media (max-width: 1100px) {
 
     .container {
         grid-template-columns: 4fr;
+    }
+
+    .text p.first-paragraph {
+        margin: 0 0 0 15rem;
+    }
+
+    .text h1 {
+        margin: 0 0 0 9rem;
     }
 
     .appTrigg {
@@ -114,29 +141,44 @@
     }
 
     .text .online-store {
-        margin-right: 25rem;
+        margin: 2rem 12rem 0 12rem;
     }
 }
 
-@media (max-width: 492px) {
-    .text {
-        margin-left: -5rem;
-    }
-
+@media (max-width: 850px) {
     .text p.first-paragraph {
-        margin-left: 2rem;
-        font-size: 2rem;
+        margin: 0;
     }
 
     .text h1 {
-        font-size: 3.6rem;
-        letter-spacing: 0;
-        margin-top: -2rem;
+        margin: 0;
     }
 
     img#appMobile {
-        margin-left: 2rem;
-        width: 21rem;
+        margin-left: 8rem;
+    }
+
+    .text .online-store {
+        margin: 2rem 12rem 0 0;
+    }
+}
+
+@media (max-width: 695px) {
+    .text p.first-paragraph {
+        font-size: 2.01rem;
+    }
+
+    .text h1 {
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 4.12rem;
+        line-height: 8.81rem;
+        color: #fff;
+        letter-spacing: 0;
+    }
+
+    img#appMobile {
+        margin-left: 0rem;
     }
 
     .text .informations {
@@ -168,5 +210,32 @@
 
     .text .apple-store span, .text .google-play span {
         font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 492px) {
+    .text {
+        margin-left: -5rem;
+    }
+
+    .text p.first-paragraph {
+        margin-left: 2rem;
+        font-size: 2rem;
+    }
+
+    .text h1 {
+        font-size: 3.6rem;
+        letter-spacing: 0;
+        margin-top: -2rem;
+        margin-left: 2rem;
+    }
+
+    img#appMobile {
+        margin-left: 2rem;
+        width: 21rem;
+    }
+
+    .text .apple-store span, .text .google-play span {
+        font-size: 1rem;
     }
 }
