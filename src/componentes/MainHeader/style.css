@@ -91,7 +91,8 @@
 }
 
 .appTrigg img {
-    width: 26rem;   
+    width: 26rem;
+    margin-bottom: 4rem;
 }
 
 .social-networks {
@@ -141,7 +142,7 @@
     }
 
     .text .online-store {
-        margin: 2rem 12rem 0 12rem;
+        margin: 2rem 12rem 3rem 12rem;
     }
 }
 
@@ -159,7 +160,7 @@
     }
 
     .text .online-store {
-        margin: 2rem 12rem 0 0;
+        margin: 2rem 12rem 3rem 0;
     }
 }
 

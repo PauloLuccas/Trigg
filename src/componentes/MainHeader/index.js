@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SectionBanner from '../SectionBanner';
 
 import mobile from '../assets/images/mobile.svg';
 import manage from '../assets/images/gerencie.svg';
@@ -85,6 +86,8 @@ export default function MainHeader() {
                     </Link>
                 </div>
             </div>
+
+            <SectionBanner />
         </div>
     )
 }

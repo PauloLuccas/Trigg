@@ -1,0 +1,89 @@
+.banner {
+    background: url('../assets/images/Bitmap.png') no-repeat;
+    width: 176%;
+    height: 30rem;
+    background-size: contain;
+}
+
+.banner ul {
+    list-style: none;
+    margin: 14rem 0 0 0;
+    font-size: 1.2rem;
+}
+
+.banner li {
+    display: inline;
+    margin-left: 5rem;
+    color: #fff;
+}
+
+.banner ul li.bu:before {
+    content: '\2022';
+    margin: 0 0.7rem;
+    color: #02B09F;
+}
+
+.banner ul li.bu {
+    margin-left: 4rem;
+}
+
+.banner ul li.betrigg {
+    margin-left: 27rem;
+    border: 1px solid #fff;
+    padding: 0.6rem 0.5rem 0.5rem 0;
+    border-radius: 0.2rem;
+}
+
+.banner ul li.betrigg span {
+    background: #fff;
+    padding: 0.6rem;
+    color: #000;
+    border-radius: 0.2rem;
+}
+
+@media (max-width: 1100px) {
+    .banner {
+        margin-left: -5rem;
+    }
+}
+
+@media (max-width: 990px) {
+    .banner ul li.betrigg {
+        display: none;
+    }
+}
+
+@media (max-width: 850px) {
+    .banner {
+        background-size: contain;
+    }
+}
+
+@media (max-width: 695px) {
+    .banner {
+        width: 150%;
+    }
+}
+
+@media (max-width: 492px) {
+    .banner {
+        background: url('../assets/images/Bitmap-mobile2.png') no-repeat;
+        width: 85.5%;
+        height: 42rem;
+    }
+
+    .banner ul {
+        margin: 5rem 0 0 2.5rem;
+    }
+
+    .banner li {
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .banner ul li.betrigg {
+        display: block;
+        width: 8rem;
+        margin: 22rem 0 0 5rem;
+    }
+}

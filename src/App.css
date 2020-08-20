@@ -1,0 +1,9 @@
+.App .h1{
+    margin-top: 17rem;
+}
+
+@media (max-width: 492px) {
+    .App .h1 {
+        margin-top: 27rem;
+    }
+}
