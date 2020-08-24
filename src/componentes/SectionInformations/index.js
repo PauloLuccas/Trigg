@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import InputSlider from '../InputSlider';
 import './style.css';
 
 import cashIcon from '../assets/images/cashback.svg';
@@ -37,7 +38,29 @@ export default function SectionInformations() {
             </div>
 
             <div className="cashback-simulation">
-                <h1>simulador</h1>
+                <h2>Devolvemos até 1.3% do valor da sua compra.</h2>
+                <p>Simule o gasto mensal e veja quanto pode receber de volta.</p>
+                <h1>R$ 5.500,00</h1>
+
+               <InputSlider />
+
+               <div className="calc-simulation">
+                   <div className="por-simulation">
+                       <p className="title">% cashback</p>
+                       <p>1,30%</p>
+                   </div>
+
+                   <div className="resgate-mes">
+                       <p className="title">resgate mês</p>
+                       <p>R$ 71,50</p>
+                   </div>
+
+                   <div className="resgate-ano">
+                       <p className="titles">resgate
+                        no ano</p>
+                       <p>R$ 858,00</p>
+                   </div>
+               </div>
             </div>
 
         </div>

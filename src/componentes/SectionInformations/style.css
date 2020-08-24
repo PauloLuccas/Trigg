@@ -4,10 +4,6 @@
     margin: 0 4.1rem 0 7rem;  
 }
 
-.container-section div {
-    border: 1px solid #000;
-}
-
 .container-section .cashback img {
     margin: 6rem 0 -2.4rem 0;
 }
@@ -68,3 +64,76 @@
 .container-section .store img{
     margin: 2rem 2rem 0 0;
 }
+
+.container-section .cashback-simulation h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.62rem;
+    letter-spacing: -0.08rem;
+    margin-top: 6.5rem;
+}
+
+.container-section .cashback-simulation p {
+    font-weight: 500;
+    font-size: 1.12rem;
+    line-height: 1.68rem;
+    letter-spacing: -0.045rem;
+    color: #202323;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.container-section .cashback-simulation h1 {
+    font-weight: 600;
+    font-size: 2.75rem;
+    line-height: 3.25rem;
+    letter-spacing: -0.11rem;
+    color: #02B09F;
+    margin-bottom: 0    ;
+}
+
+.calc-simulation {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.calc-simulation div {
+    border-radius: 0.57rem;
+    box-shadow: 0 0.129rem 0.3rem #202323;
+
+}
+
+.calc-simulation p.title {
+    background: #02B09F;
+    color: #fff;
+    font-size: 0.87rem;
+    font-weight: 600;
+    width: 6rem;
+    height: 2.2rem;
+    text-align: center;
+    border-top-right-radius: 0.57rem;
+    border-top-left-radius: 0.57rem;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.calc-simulation .resgate-ano {
+    background: #02B09F;
+    border-radius: 0.57rem;
+}
+
+.calc-simulation .resgate-ano p.titles {
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.87rem;
+    font-weight: 600;
+    width: 6rem;
+    height: 2.5rem;
+}
+
+.calc-simulation .resgate-ano p {
+    color: #fff;
+    font-weight: bold;
+}
+
