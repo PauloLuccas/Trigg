@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './componentes/Header';
 import SectionInformations from './componentes/SectionInformations';
+import Footer from './componentes/Footer';
 
 import './App.css';
 
@@ -8,9 +9,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1 className="h1">
+      <section className="sectionInformations">
         <SectionInformations />
-      </h1>
+      </section>
+      <Footer />
     </div>
   );
 }

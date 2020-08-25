@@ -9,12 +9,12 @@ import './style.css';
 
 export default function Header() {
     return (
-        <div className="box">
+        <header className="box">
             <ItemHeader 
                 imagem={logo}
                 imagemicon={imgIcon}
                 imagemenu={imgMenu}
             />
-        </div>
+        </header>
     );
 }

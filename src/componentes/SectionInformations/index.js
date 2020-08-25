@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import InputSlider from '../InputSlider';
+import InputSlider from '../../controllers/InputSlider/';
 import './style.css';
 
 import cashIcon from '../assets/images/cashback.svg';

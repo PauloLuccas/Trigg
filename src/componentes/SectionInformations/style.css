@@ -137,3 +137,25 @@
     font-weight: bold;
 }
 
+@media(max-width: 1200px) {
+    .container-section {
+        display: grid;
+        grid-template-columns: 330px 250px;
+    }
+}
+
+@media(max-width: 850px) {
+    .container-section {
+        display: grid;
+        grid-template-columns: 330px;
+        margin-left: 10rem;
+    }
+}
+
+@media(max-width: 850px) {
+    .container-section {
+        display: grid;
+        grid-template-columns: 330px;
+        margin-left: 6rem;
+    }
+}

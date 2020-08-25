@@ -6,7 +6,7 @@ import './style.css';
 
 export default function ItemHeader(props) {
     return (
-        <header className="page-header">
+        <div className="page-header">
             <div className="top-bar-container">
                 <div id="logo-header-mobile" className="logo-header">
                     <Link to="/">
@@ -43,6 +43,6 @@ export default function ItemHeader(props) {
             </div>
 
             <MainHeader />
-        </header>
+        </div>
     );
 }
