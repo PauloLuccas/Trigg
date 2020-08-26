@@ -38,10 +38,92 @@
 .footer-informations {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
-    margin: 0 4.3rem  0 6.6rem;
-    
+    margin: 0 4.3rem 3rem 6.6rem;
 }
 
 .footer-informations div {
-    border: 1px solid red;
+    margin-top: 4rem;
+}
+
+.footer-informations {
+    color: #fff
+}
+
+.footer-informations h4.first-title {
+    font-weight: 500;
+    margin-bottom: -0.6rem;
+}
+
+.footer-informations span {
+    font-weight: 600;
+    color: #02B09F;
+}
+
+.footer-informations a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-informations h4.second-title {
+    color: #02B09F;
+    font-size: 1.2rem;
+    margin-top: 6.5rem;
+    margin-bottom: -0.6rem;
+}
+
+.footer-informations p {
+    margin-bottom: -0.6rem;
+}
+
+.footer-informations .sac {
+    padding-right: 2rem;
+}
+
+.footer-informations .sac h4.first-title,
+.footer-informations .deficientes h4.first-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: -0.6rem;
+    margin-bottom: -0.6rem;
+    color: #02B09F;
+}
+
+.footer-informations .sac p.note {
+    font-size: 0.9rem;
+}
+
+.footer-informations .sac h4.second-title {
+    margin-top: 4rem;
+}
+
+.footer-informations .p-store {
+    margin-top: 6.6rem;
+}
+
+.footer-informations .p-store a{
+    display: block;
+    margin-bottom: 1rem;
+    
+}
+
+hr {
+    border-bottom: 1px solid #ccc;
+    width: 99.8%;
+    opacity: 0.2;
+}
+
+.associate-member {
+    margin: -0.5rem 0 0 0;
+    padding: 3rem 4.3rem 3rem 6.6rem;
+    background-color: #222227;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.associate-member p {
+    color: #fff;
+    margin: 0  3rem  0 25rem;
+    text-align: right;
 }
