@@ -1,0 +1,59 @@
+.container-about {
+    background-color: #f0f2f5;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 0 4.1rem 0 7rem;
+    padding: 9rem 0 12rem 0;
+}
+
+.text-about {
+    background-color: #fff;
+    padding: 5rem 3.4rem 5rem 3.5rem;
+}
+
+.text-about h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.text-about h1 span {
+    color: #00bab3;
+}
+
+.text-flex {
+    display: flex;
+    align-self: start;
+}
+
+.end {
+    margin-bottom: 3rem;
+}
+
+.text-flex img {
+    margin-right: 1rem;
+}
+
+.text-about a {
+    position: relative;
+    text-decoration: none;
+    color: #fff ;
+    background-color: #00bab3;
+    font-weight: 600;
+    padding: 1.5rem 6.5rem 1.5rem 5.8rem;
+    border-radius: 1rem;
+}
+
+.text-about a:hover {
+    border: 1px solid #00bab3;
+    background-color: #37ddd8;
+    transition: all .2s;
+}
+
+.text-about img.nextWhite {
+    position: absolute;
+    top: 1.37rem;
+    right: 4.4rem;
+}

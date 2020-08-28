@@ -2,8 +2,16 @@
     margin-top: 17rem;
 }
 
+.App .section-about {
+    margin-top: -5rem;
+}
+
 @media (max-width: 492px) {
     .App .sectionInformations {
         margin-top: 27rem;
+    }
+
+    .App .section-about {
+        margin-top: -5rem;
     }
 }
