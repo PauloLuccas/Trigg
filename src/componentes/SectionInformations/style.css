@@ -1,6 +1,6 @@
 .container-section {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
+    display: flex;
+    justify-content: space-between;
     margin: 0 4.1rem 0 7rem;  
 }
 
@@ -92,6 +92,11 @@
     margin-bottom: 0    ;
 }
 
+
+.cashback-img {
+    margin-right: 3rem;
+}
+
 .calc-simulation {
     display: flex;
     justify-content: space-between;
@@ -142,13 +147,25 @@
         display: grid;
         grid-template-columns: 330px 250px;
     }
+
+    .cashback-img {
+        margin-left: -3rem;
+    }
+
+    .cashback-simulation {
+        margin: -10rem 0 7rem 15rem;
+        width: 38rem;
+        text-align: center;
+    }
+    
+    .cashback-simulation span.MuiSlider-root {
+        width: 177%;
+    }
 }
 
-@media(max-width: 850px) {
-    .container-section {
-        display: grid;
-        grid-template-columns: 330px;
-        margin-left: 10rem;
+@media(max-width: 1000px) {
+    .cashback-simulation {
+        margin: -10rem 0 7rem 6rem;
     }
 }
 
@@ -157,5 +174,78 @@
         display: grid;
         grid-template-columns: 330px;
         margin-left: 6rem;
+    }
+
+    .cashback-simulation {
+        margin: -10rem 0 7rem 0;
+    }
+
+    .cashback {
+        width: 33rem;
+        text-align: center;
+        margin-left: 2rem;
+    }
+
+    .cashback .button {
+        margin-left: 7rem;
+    }
+
+    .cashback .store {
+        margin-left: 3rem;
+    }
+
+    .cashback-img {
+        margin-left: 7rem;
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width: 695px) {
+    .cashback {
+        margin-left: 0;
+    }
+
+    .cashback-img {
+        margin-left: 5rem;
+    }
+
+    .cashback-simulation {
+        width: 31rem;
+    }
+
+    .cashback-simulation span.MuiSlider-root {
+        width: 143%;
+    }
+}
+
+@media(max-width: 492px) {
+    .container-section {
+        margin-left: 3rem;
+    }
+
+    .cashback {
+        width: inherit;
+        text-align: inherit;
+    }
+
+    .cashback .button {
+        margin-left: 0;
+    }
+
+    .cashback .store {
+        margin-left: 0;
+    }
+
+    .cashback-img {
+        margin-left: -1.5rem;
+    }
+
+    .cashback-simulation {
+        width: inherit;
+        text-align: inherit;
+    }
+
+    .cashback-simulation span.MuiSlider-root {
+        width: 95%;
     }
 }

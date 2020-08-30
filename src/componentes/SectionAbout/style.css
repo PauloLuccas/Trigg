@@ -3,14 +3,27 @@
 }
 
 .about {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
+    display: flex;
     margin: 0 4.1rem 0 7rem;
     padding: 9rem 0 12rem 0;
 }
 
+.banner-about {
+    display: flex;
+}
+
+.banner-about img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-about,
 .text-about {
     background-color: #fff;
+}
+
+
+.text-about {
     padding: 5rem 3.4rem 5rem 3.5rem;
 }
 
@@ -56,4 +69,21 @@
     position: absolute;
     top: 1.37rem;
     right: 4.4rem;
+}
+
+@media (max-width: 1110px) {
+    .text-about a {
+        padding: 1.5rem 6rem 1.5rem 3.5rem;
+    }
+
+    .about {
+        flex-direction: column;
+        margin: 0 12.2rem 0 13rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .about {
+        margin: 0px 7.2rem 0 7rem;
+    }
 }
