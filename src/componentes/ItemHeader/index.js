@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import MainHeader from '../MainHeader';
 
 import './style.css';
 
@@ -15,7 +14,9 @@ export default function ItemHeader(props) {
                 </div>
 
                 <div className="about-header">
-                        <p>Conheça a Trigg</p>
+                        <Link to="/conhecatrigg">
+                            <p>Conheça a Trigg</p>
+                        </Link>
                     </div>
 
                     <div className="cartao-header">
@@ -41,8 +42,7 @@ export default function ItemHeader(props) {
                         <img src={props.imagemenu} alt="Menu Icon"/>
                     </button>
             </div>
-
-            <MainHeader />
+            
         </div>
     );
 }

@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 3fr 2fr;
     margin: 0 4.1rem 0 7rem;    
+    margin-top: -48rem;
 }
 
 .text {
@@ -118,6 +119,7 @@
 
     .container {
         grid-template-columns: 4fr;
+        margin-top: -70rem;
     }
 
     .text p.first-paragraph {
@@ -147,6 +149,11 @@
 }
 
 @media (max-width: 850px) {
+
+    .container {
+        margin-top: -70rem;
+    }
+
     .text p.first-paragraph {
         margin: 0;
     }
@@ -165,6 +172,11 @@
 }
 
 @media (max-width: 695px) {
+
+    .container {
+        margin-top: -75rem;
+    }
+
     .text p.first-paragraph {
         font-size: 2.01rem;
     }
