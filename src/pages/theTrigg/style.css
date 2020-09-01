@@ -20,7 +20,7 @@ header {
 
 .img-hello img {
     max-width: 100%;
-    height: auto;
+    height: 31rem;
 }
 
 .img-hello,
@@ -34,4 +34,25 @@ header {
 
 .text-hello {
     width: 60%;
+    padding-left: 2rem;
+    color: #29292b;
+}
+
+.text-hello h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: -0rem;
+}
+
+.text-hello span {
+    color: #00bab3;
+}
+
+.text-hello p.subtitle {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.about-text {
+    font-size: 1.09rem;
 }
