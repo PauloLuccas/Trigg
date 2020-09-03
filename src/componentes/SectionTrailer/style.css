@@ -1,0 +1,29 @@
+.trailerAbout {
+    margin-top: -18rem;
+    display: flex;
+    justify-content: center;
+    padding: 0 4.1rem 0 7rem;
+}
+
+.textAbout {
+    background-color: #f0f2f5;
+    text-align: right;
+    margin-right: 3.1rem;
+}
+
+.textAbout h1 {
+    font-size: 3.2rem;
+}
+
+.textAbout p.subtitle {
+    font-size: 1rem;
+}
+
+.textAbout p.text {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+.trailerAbout iframe {
+    border-radius: 0.8rem;
+}

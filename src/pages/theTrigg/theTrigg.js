@@ -1,6 +1,8 @@
 import React from 'react';
 import ItemHeader from '../../componentes/ItemHeader';
-import SectionTheTrigg from '../../componentes/SectionTheTrigg';    
+import SectionTheTrigg from '../../componentes/SectionTheTrigg';
+import SectionTrailer from '../../componentes/SectionTrailer';
+
 import Footer from '../../componentes/Footer';
 
 import logo from '../../componentes/assets/images/logo-trigg.png';
@@ -22,6 +24,7 @@ function theTrigg() {
             </header>
 
             <SectionTheTrigg />
+            <SectionTrailer />
 
             <Footer />
         </div>
