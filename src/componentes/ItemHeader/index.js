@@ -14,33 +14,33 @@ export default function ItemHeader(props) {
                 </div>
 
                 <div className="about-header">
-                        <Link to="/conhecatrigg">
-                            <p>Conheça a Trigg</p>
-                        </Link>
-                    </div>
+                    <Link to="/about">
+                        <p>Conheça a Trigg</p>
+                    </Link>
+                </div>
 
-                    <div className="cartao-header">
-                        <p>Cartão de Crédito</p>
-                    </div>
+                <div className="cartao-header">
+                    <p>Cartão de Crédito</p>
+                </div>
 
-                    <div className="cashback-header">
-                        <p>Cashback</p>
-                    </div>
+                <div className="cashback-header">
+                    <p>Cashback</p>
+                </div>
 
-                    <div className="tag-header">
-                        <p>Dúvidas?</p>
-                    </div>
+                <div className="tag-header">
+                    <p>Dúvidas?</p>
+                </div>
                     
-                    <div className="button-header">
-                        <Link to="/">
-                            <img src={props.imagemicon} alt="Icon"></img>
-                            Acessar Conta
-                        </Link>
-                    </div>
+                <div className="button-header">
+                    <Link to="/">
+                        <img src={props.imagemicon} alt="Icon"></img>
+                        Acessar Conta
+                    </Link>
+                </div>
 
-                    <button id="menu-mobile" className="menu-button">
-                        <img src={props.imagemenu} alt="Menu Icon"/>
-                    </button>
+                <button id="menu-mobile" className="menu-button">
+                    <img src={props.imagemenu} alt="Menu Icon"/>
+                </button>
             </div>
             
         </div>

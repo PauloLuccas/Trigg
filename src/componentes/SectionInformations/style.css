@@ -1,11 +1,11 @@
 .container-section {
     display: flex;
     justify-content: space-between;
-    margin: 0 4.1rem 0 7rem;  
+    margin: 0 4.1rem 0 5rem;  
 }
 
 .container-section .cashback img {
-    margin: 6rem 0 -2.4rem 0;
+    margin: 4rem 0 0 0;
 }
 
 .container-section .cashback h1 {
@@ -33,6 +33,7 @@
     font-weight: 500;
     mix-blend-mode: normal;
     opacity: 0.7;
+    margin-top: 1rem;
 }
 
 .container-section .cashback .button {
@@ -47,11 +48,13 @@
     color: #fff;
 }
 
+.container-section .cashback .button:hover {
+    background:linear-gradient(24.68deg, #4ea39e9c -50.25%, #00CEBC 183.87%), rgba(245, 245, 245, 0.0001);
+}
+
 .container-section .cashback .button a {
     text-decoration: none;
     font-size: 1rem;
-    width: 9.8rem;
-    line-height: 3rem;
     font-weight: 600;
   
     display: flex;
@@ -81,6 +84,7 @@
     color: #202323;
     mix-blend-mode: normal;
     opacity: 0.8;
+    margin-top: 0.5rem;
 }
 
 .container-section .cashback-simulation h1 {
@@ -94,7 +98,7 @@
 
 
 .cashback-img {
-    margin-right: 3rem;
+    margin-right: 1rem;
 }
 
 .calc-simulation {
@@ -106,7 +110,7 @@
 .calc-simulation div {
     border-radius: 0.57rem;
     box-shadow: 0 0.129rem 0.3rem #202323;
-
+    height: 5.5rem;
 }
 
 .calc-simulation p.title {
@@ -115,7 +119,6 @@
     font-size: 0.87rem;
     font-weight: 600;
     width: 6rem;
-    height: 2.2rem;
     text-align: center;
     border-top-right-radius: 0.57rem;
     border-top-left-radius: 0.57rem;

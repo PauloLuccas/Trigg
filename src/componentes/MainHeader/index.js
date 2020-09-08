@@ -2,22 +2,22 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import SectionBanner from '../SectionBanner';
 
-import mobile from '../assets/images/mobile.svg';
-import manage from '../assets/images/gerencie.svg';
-import giveBack from '../assets/images/devolvemos.svg';
-import card from '../assets/images/cartao.svg';
-import shield from '../assets/images/shield.svg';
-import logoApple from '../assets/images/logo-apple-white.svg';
-import logoGoogle from '../assets/images/logo-googleplay-white.svg';
-import facebookIcon from '../assets/images/fcebook.svg';
-import twitterIcon from '../assets/images/twitter.svg';
-import instagramIcon from '../assets/images/instagram.svg';
+import mobile from '../../assets/images/mobile.svg';
+import manage from '../../assets/images/gerencie.svg';
+import giveBack from '../../assets/images/devolvemos.svg';
+import card from '../../assets/images/cartao.svg';
+import shield from '../../assets/images/shield.svg';
+import logoApple from '../../assets/images/logo-apple-white.svg';
+import logoGoogle from '../../assets/images/logo-googleplay-white.svg';
+import facebookIcon from '../../assets/images/fcebook.svg';
+import twitterIcon from '../../assets/images/twitter.svg';
+import instagramIcon from '../../assets/images/instagram.svg';
 
 import './style.css';
 
 export default function MainHeader() {
     return (
-        <div className="container">
+        <section className="container">
             <div className="text">
                 <p className="first-paragraph"> Não é só mais um cartão. </p>
 
@@ -88,6 +88,6 @@ export default function MainHeader() {
             </div>
 
             <SectionBanner />
-        </div>
+        </section>
     )
 }

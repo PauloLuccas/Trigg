@@ -1,0 +1,86 @@
+.container-trigg {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f2f5;
+    height: 50rem;
+}
+
+.hello-trigg {
+    display: flex;
+    justify-content: center;
+    margin: 0 4.1rem 0 7rem;
+    margin-top: -14.5rem;
+}
+
+.img-hello img {
+    max-width: 100%;
+    height: auto;   
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.img-hello,
+.text-hello {
+    background-color: #fff;
+}
+
+.img-hello {
+    display: flex;
+    width: 40%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.text-hello {
+    width: 60%;
+    padding-left: 2rem;
+    color: #29292b;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.text-hello h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.text-hello span {
+    color: #00bab3;
+}
+
+.text-hello p.subtitle {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.about-text {
+    font-size: 1.09rem;
+}
+
+@media (max-width: 1024px) {
+    .img-hello {
+        display: block;
+    }
+
+    .hello-trigg {
+        flex-direction: column;
+        background: #fff;
+    }
+    
+    .hello-trigg .img-hello img {
+        height: 51rem;
+        max-width: 250%;
+    }
+}
+
+@media (max-width: 696px) {
+    .text-hello h1 {
+        font-size: 2.6em;
+    }
+
+    .hello-trigg .img-hello img {
+        height: 32rem;
+    }
+}

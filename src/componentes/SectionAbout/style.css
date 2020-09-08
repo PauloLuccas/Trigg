@@ -4,7 +4,7 @@
 
 .about {
     display: flex;
-    margin: 0 4.1rem 0 7rem;
+    margin: 0 2.5rem 0 5rem;
     padding: 9rem 0 12rem 0;
 }
 
@@ -30,6 +30,7 @@
 .text-about h1 {
     font-size: 3rem;
     font-weight: 900;
+    margin-bottom: 3rem;
 }
 
 .text-about h1 span {
@@ -39,10 +40,12 @@
 .text-flex {
     display: flex;
     align-self: start;
+    margin-top: 1rem;
+    font-size: 1rem;
 }
 
 .end {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .text-flex img {

@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import InputSlider from '../../controllers/InputSlider/';
 import './style.css';
 
-import cashIcon from '../assets/images/cashback.svg';
-import appleStore from '../assets/images/logo-apple-blue.svg';
-import googlePlay from '../assets/images/logo-googleplay-blue.svg';
-import mobileFront from '../assets/images/front.png';
+import cashIcon from '../../assets/images/cashback.svg';
+import appleStore from '../../assets/images/logo-apple-blue.svg';
+import googlePlay from '../../assets/images/logo-googleplay-blue.svg';
+import mobileFront from '../../assets/images/front.png';
 
 export default function SectionInformations() {
     return (
-        <div className="container-section">
+        <section className="container-section">
             <div className="cashback">
                 <img src={cashIcon} alt="CashBack Icon"/>
                 <h1>CASHBACK</h1>
@@ -63,6 +63,6 @@ export default function SectionInformations() {
                </div>
             </div>
 
-        </div>
+        </section>
     )
 }

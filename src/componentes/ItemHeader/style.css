@@ -1,10 +1,5 @@
-.page-header {
-    display: flex;
-    flex-direction: column;
-  }
-  
   .page-header .top-bar-container {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -15,8 +10,7 @@
     color: #fff;
     font-weight: 500;
     font-size: 1rem;
-    display: flex;
-    justify-content: center;
+    font-weight: 600;
   }
   
   .page-header .top-bar-container a {
@@ -31,6 +25,20 @@
     margin-bottom: 3rem;
   }
   
+  .about-header p:hover,
+  .cartao-header p:hover,
+  .cashback-header p:hover,
+  .tag-header p:hover { 
+    color: #d5f3f0;
+    border-bottom: 0.19rem ridge #fff;
+    transition: .1s;
+  }
+
+  .button-header a:hover {
+    background: #d5d5d562;
+    transition: .1s;
+  }
+
   .button-header {
     display: flex;
     justify-content: center;
@@ -59,7 +67,7 @@
     display: none;
   }
   
-  @media (max-width: 1100px) {
+  @media (max-width: 1024px) {
 
     .about-header,
     .cartao-header,

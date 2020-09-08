@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import eventoTrigg from '../assets/images/evento-trigg.jpg';
-import check from '../assets/images/tick.svg';
-import nextWhite from '../assets/images/next-white.svg';
+import eventoTrigg from '../../assets/images/evento-trigg.jpg';
+import check from '../../assets/images/tick.svg';
+import nextWhite from '../../assets/images/next-white.svg';
 
 import './style.css';
 
 export default function SectionAbout() {
     return (
-        <div className="container-about">
+        <section className="container-about">
             <div className="about">
                 <div className="banner-about">
                     <img src={eventoTrigg} alt="Evento Trigg"/>
@@ -46,6 +46,6 @@ export default function SectionAbout() {
                     
                 </div>
             </div>
-        </div>       
+        </section>       
     )
 }

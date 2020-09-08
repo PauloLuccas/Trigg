@@ -33,6 +33,7 @@ footer.container-footer {
     font-weight: 600;
     position: absolute;
     right: 6.6rem;
+    margin-top: 1rem;
 }
 
 .footer-informations {
@@ -51,7 +52,7 @@ footer.container-footer {
 
 .footer-informations h4.first-title {
     font-weight: 500;
-    margin-bottom: -0.6rem;
+    margin-bottom: 0.6rem;
 }
 
 .footer-informations span {
@@ -69,11 +70,11 @@ footer.container-footer {
     color: #02B09F;
     font-size: 1.2rem;
     margin-top: 6.5rem;
-    margin-bottom: -0.6rem;
+    margin-bottom: 0.6rem;
 }
 
 .footer-informations p {
-    margin-bottom: -0.6rem;
+    margin-bottom: 0.6rem;
 }
 
 .footer-informations .sac {
@@ -85,7 +86,7 @@ footer.container-footer {
     font-size: 1.2rem;
     font-weight: 600;
     margin-top: -0.6rem;
-    margin-bottom: -0.6rem;
+    margin-bottom: 0.6rem;
     color: #02B09F;
 }
 
@@ -94,7 +95,7 @@ footer.container-footer {
 }
 
 .footer-informations .sac h4.second-title {
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 
 .footer-informations .p-store {

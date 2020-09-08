@@ -1,6 +1,6 @@
 .banner {
-    background: url('../assets/images/Bitmap.png') no-repeat;
-    width: 176%;
+    background: url('../../assets/images/Bitmap.png') no-repeat;
+    width: 159.8%;
     height: 30rem;
     background-size: contain;
 }
@@ -67,7 +67,7 @@
 
 @media (max-width: 492px) {
     .banner {
-        background: url('../assets/images/Bitmap-mobile2.png') no-repeat;
+        background: url('../../assets/images/Bitmap-mobile2.png') no-repeat;
         width: 85.5%;
         height: 42rem;
     }
