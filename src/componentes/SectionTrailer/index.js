@@ -18,7 +18,7 @@ export default function SectionTrailer() {
             </div>
 
             <div className="trailer-about">
-            <iframe width="580" height="415" 
+            <iframe 
             src="https://www.youtube.com/embed/xWC6M6KiDBI" 
             frameborder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 

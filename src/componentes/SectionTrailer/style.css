@@ -1,8 +1,10 @@
 .trailerAbout {
-    margin-top: -18rem;
+    margin-top: -23rem;
     display: flex;
-    justify-content: center;
-    padding: 0 4.1rem 0 7rem;
+    align-content: center;
+    padding: 0 4.1rem 0 4.2rem;
+    background-color: #f0f2f5;
+    padding-bottom: 10rem;
 }
 
 .textAbout {
@@ -25,5 +27,55 @@
 }
 
 .trailerAbout iframe {
+    display: flex;
     border-radius: 0.8rem;
+    width: 580px;
+    height: 415px;
+}
+
+@media (max-width: 1206px) {
+    .trailerAbout iframe {
+        width: 590px;
+        height: 500px;
+    }   
+}
+
+@media (max-width: 1024px) {
+    .trailerAbout {
+        flex-direction: column;
+    }
+
+    .text-hello {
+        width: 100%;
+    }
+
+    .textAbout {
+        text-align: start;
+    }
+
+    .trailerAbout iframe {
+        width: 100%;
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 696px) {
+    .trailerAbout {
+        margin-top: -40rem;
+        padding: 0 2rem 0 2rem;
+    }
+}
+
+@media (max-width: 492px) {
+    .text {
+        margin-left: 0;
+    }
+
+    .textAbout h1 {
+        font-size: 2.6em;
+    }
+
+    .trailerAbout {
+        padding: 0 2rem 0 2rem;
+    }
 }
