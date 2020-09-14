@@ -22,92 +22,57 @@
     color: #00bab3;
 }
 
-.sliderStory {
-    height: 20rem;
-    background-color: #f0f2f5;
-    border-radius: 1rem;
+.Story {
     margin-bottom: 10rem;
 }
 
-.slider-story {
-    position: absolute;
-    transform: translateY(-50%);
+.sliderStory {
     width: 100%;
-    height: 105%;
-    max-height: 135vw;
-    z-index: 4;
+    height: 15rem;
+    background-color: #f0f2f5;
+    border-radius: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
 }
 
-.slider__stream {
-    position: relative;
-    top: 75%;
-    transform: translateY(-50%);
-    width: 100%;
-    height: 60%;
-    overflow: hidden;
+.slider-story div {
+    height: 20rem;
 }
 
-.slider__item {
+.rec-arrow {
     position: absolute;
-    width: 42%;
-    height: 100%;
-    transition: 1s all ease;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
+    top: 102rem;
+    z-index: 99;
 }
 
-.slider__item:nth-child(1) {
-    left: 0;
-    z-index: 1;
-    transform: translateX(-100%)scale(.8);
-    display: none;
-    border: 1px solid red;
+.rec-arrow-left {
+    left: 13rem;
 }
 
-.slider__item:nth-child(2) {
-    left: 0;
-    z-index: 2;
-    transform: translateX(-50%) scale(.8);
-    border: 1px solid green;
-    opacity: 0;
+.rec-arrow-right {
+    left: 17rem;
 }
 
-.slider__item:nth-child(3) {
-    left: 45.2%;
-    width: 112%;
-    height: 95%;
-    z-index: 4;
-    transform: translateX(-50%) scale(.8);
-    border: 1px solid yellow;
+.rec-item-wrapper {
+    height: 20rem;
 }
 
-.slider__item:nth-child(4) {
-    left: 94%;
-    z-index: 2;
-    transform: translateX(-50%) scale(.8);
-    background-size: 60%;
-    border: 1px solid blue;
-    opacity: 0;
-}
-
-.slider__prev,
-.slider__next {
+.sliderStory h2 {
     position: absolute;
-    top: 18.8rem;
-    z-index: 4;
-    width: 3.3%;
-    height: 6%;
-    transform: translateX(-50%) translateY(-50%) scale(.8);
-    cursor: pointer;
-    border: 1px solid #000;
-    border-radius: 6rem;
+    top: 0rem;
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+    color: #00bab3;
 }
 
-.slider__prev {
-    left: 9.2rem;
+.sliderStory span {
+    font-weight: 900;
+    color: #00bab3;
+    font-size: 18px;
 }
 
-.slider__next {
-    left: 14%;
+.sliderStory p {
+    color: #29292b;
+    font-size: 0.9rem;
+    margin: 1rem 2rem 0 2rem;
 }
