@@ -1,0 +1,59 @@
+.join-container {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f1f2;
+    width: 100%;
+    height: 30rem;
+    padding: 9rem 4rem 44rem 4rem;
+}
+
+.joinTeam {
+    background-color: #fff;
+    height: 35rem;
+    border-radius: 0.7rem;
+}
+
+.joinTeam img.handshake {
+    width: 100%;
+    margin-top: -4.6rem;
+}
+
+.joinTeam .text-align {
+    text-align: center;
+}
+
+.joinTeam h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.joinTeam h2 span {
+    color: #00bab3;
+}
+
+.joinTeam p {
+    margin: 1rem 1rem 2rem 1rem;
+    font-size: 1.12rem;
+}
+
+.joinTeam a {
+    position: relative;
+    text-decoration: none;
+    background-color: #00bab3;
+    color: #fff;
+    font-size: 0.98rem;
+    padding: 0.95rem 2.95rem 0.95rem 2.95rem;
+    border-radius: 0.7rem;
+}
+
+.joinTeam a:hover {
+    background-color: #e2e8f0;
+    color: #00bab3;
+    border: 1px solid #00bab3;
+}
+
+.joinTeam img.star {
+    position: absolute;
+    top: 0.7rem;
+    margin-left: 0.2rem;
+}

@@ -3,9 +3,10 @@ import Header from '../../componentes/Header';
 import SectionTheTrigg from '../../componentes/SectionTheAbout';
 import SectionTrailer from '../../componentes/SectionTrailer/index';
 import SectionOurStory from '../../componentes/SectionOurStory';
+import SectionJoinTeam from '../../componentes/SectionJoinTeam'
 import Footer from '../../componentes/Footer/Index';
 
-import './style.css';
+import './style.css';;
 
 export default function About() {
     return (
@@ -14,6 +15,7 @@ export default function About() {
             <SectionTheTrigg />
             <SectionTrailer />
             <SectionOurStory />
+            <SectionJoinTeam />
             <Footer />
         </div>
     )
