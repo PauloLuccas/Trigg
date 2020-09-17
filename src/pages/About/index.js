@@ -6,7 +6,7 @@ import SectionOurStory from '../../componentes/SectionOurStory';
 import SectionJoinTeam from '../../componentes/SectionJoinTeam'
 import Footer from '../../componentes/Footer/Index';
 
-import './style.css';;
+import './style.css';
 
 export default function About() {
     return (

@@ -1,0 +1,9 @@
+header {
+    background: url('../../assets/images/fullbanner.svg') no-repeat;
+    height: 25rem;
+    z-index: -1!important;
+}
+
+SectionProducts {
+    z-index: 9999999!important;
+}

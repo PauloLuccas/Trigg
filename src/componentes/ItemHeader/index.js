@@ -20,7 +20,9 @@ export default function ItemHeader(props) {
                 </div>
 
                 <div className="cartao-header">
-                    <p>Cartão de Crédito</p>
+                    <Link to="/Product">
+                        <p>Produtos</p>
+                    </Link>
                 </div>
 
                 <div className="cashback-header">
