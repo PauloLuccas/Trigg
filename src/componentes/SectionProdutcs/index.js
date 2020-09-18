@@ -1,15 +1,31 @@
 import React from 'react';
-import Carousel from 'react-elastic-carousel';
+
+import startApp from '../../assets/images/start_app.png';
+import badgePlayStore from '../../assets/images/badge_play_store_desk.svg';
+import badgeApple from '../../assets/images/apple_store_badge.svg';
 
 import './style.css';
 
 export default function SectionProducts() {
     return (
         <section className="products">
-            <Carousel verticalMode >
-                <div className="slider-products">
-                    <div>
-                        <h2>teste1</h2>
+            <div className="slider-products">
+                    <div className="first">
+                        <h2>#AppTrigg</h2>
+                        <img src={startApp} alt="Start App"/>
+
+                        <div className="text-first">
+                            <h1>Um cartão <span>sem burocracia</span></h1>
+                            <p>
+                                Nos disseram que o mercado financeiro era complexo.
+                                Inquietos que somos, simplificamos e colocamos tudo o
+                                que você precisa em um só App.
+                            </p>
+                            
+                            <img src={badgePlayStore} alt="Play Store"/>
+                            <img src={badgeApple} alt="Apple Store"/>
+                        </div>
+
                     </div>
                 </div>
 
@@ -72,7 +88,6 @@ export default function SectionProducts() {
                         <h2>teste11</h2>
                     </div>
                 </div>
-            </Carousel>
         </section>
     )
 }
