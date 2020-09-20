@@ -276,6 +276,10 @@ div.text-third h1 {
     margin-top: -5rem;
 }
 
+.text-sixth .bl img {
+    margin-left: 0!important;
+}
+
 .slider-products .sixth-place img {
-    margin-left: 11rem;
+    margin-left: 11rem; 
 }
