@@ -10,7 +10,7 @@
     position: relative;
     display: flex;
     height: auto;
-    margin: 0 4.1rem 5rem 4.1rem;
+    margin: 10rem 4.1rem 5rem 4.1rem;
     background: #fff;
     border-radius: 1rem;
 }
@@ -19,20 +19,263 @@
     margin-top: -14rem;
 }
 
-.slider-products div.first img {
+.slider-products div.first img{
     max-width: 100%;
     width: 33%;
     height: auto;   
     margin-top: -3rem;
+    margin-left: 1.5rem;
 }
 
-.slider-products div.first h2 {
+.slider-products div.first h2,
+.slider-products .fifth h2 {
     position: absolute;
     right: 0.5rem;
     top: -2rem;
     color: #232432;
 }
 
-.slider-products .text-first {
+.slider-products .text-first,
+.slider-products .text-fifth {
     flex-direction: column;
+    margin-top: 8rem;
+}
+
+.slider-products .text-first h1,
+.slider-products .text-second h1,
+.slider-products .text-third h1,
+.slider-products .text-fourth h1,
+.slider-products .text-fifth h1,
+.slider-products .text-sixth h1 {
+    font-size: 3rem;
+}
+
+.slider-products .text-first h1 span,
+.slider-products .text-second h1 span,
+.slider-products .text-third h1 span,
+.slider-products .text-fourth h1 span,
+.slider-products .text-fourth p span.ex,
+.slider-products .text-fifth h1 span,
+.slider-products .text-sixth h1 span {
+    color: #00bab3;
+}
+
+.slider-products .text-first p {
+    font-size: 1.11rem;
+    margin-top: 1.5rem;
+    margin-right: 10rem;
+    line-height: 1.8rem;
+}
+
+.store-text img {
+    margin-top: 5rem;
+    margin-left: -1.4rem;
+}
+
+.slider-products .second h2,
+.slider-products .fourth-place h2,
+.slider-products .sixth-place h2 {
+    margin-top: -2rem;
+    color: #232432;
+}
+
+.slider-products .text-second p,
+.slider-products .fourth-place p,
+.slider-products .text-fifth p,
+.slider-products .text-sixth p {
+    font-size: 1.11rem;
+    margin-top: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.slider-products .second img,
+.slider-products .fourth-place img,
+.slider-products .sixth-place img {
+    max-width: 100%;
+    width: 41%;
+    height: auto;
+    margin-right: -1.2rem;
+}
+
+.second .text-second,
+.fourth-place .text-fourth,
+.sixth-place .text-sixth {
+    flex-direction: column;
+    margin-top: 6rem;
+    margin-left: -5rem;
+}
+
+.second {
+    margin-bottom: 0;
+    margin-left: -1rem;
+}
+
+.text-second img,
+.text-fourth img,
+.text-sixth img {
+    width: 5%!important;
+    margin-right: 1rem!important;
+}
+
+.text-second p.bl {
+    font-weight: 900;
+}
+
+.text-second span.tx,
+.text-fourth span.tx,
+.text-fifth span.tx,
+.text-sixth span.tx {
+    margin-left: 3rem;
+    color: #90949a;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.text-second span.tx strong {
+    color: #00bab3;
+}
+
+.text-second h3 {
+    margin-top: 1.6rem;
+    font-weight: 400;
+}
+
+.text-second h3 strong {
+    color: #00bab3;
+}
+
+.third h2 {
+    position: absolute;
+    right: 0.5rem;
+    top: -1.5rem;
+    color: #232432;
+}
+
+.third img {
+    max-width: 100%;
+    width: 50%;
+    margin-top: -2em;
+}
+
+.text-third {
+    flex-direction: column;
+    margin-left: 0!important;
+}
+
+div.text-third h1 {
+    margin-top: -6rem;
+}
+
+.text-third p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.makeStyles-root-1 {
+    margin-left: -6rem!important;
+    margin-right: 0!important;
+    margin-top: 3rem!important;
+    width: 42rem!important;
+}
+
+.cashback-products {
+    flex-direction: column;
+    margin: 0!important;
+}
+
+.cashback-products .l1 {
+    margin-top: -15rem!important;
+}
+
+.cashback-products .l1,
+.cashback-products .l2 {
+    margin: 0;
+}
+
+.cashback-products .monthly-invoice,
+.cashback-products .cashback-porc,
+.cashback-products .monthly-cashback,
+.cashback-products .annual-cashback {
+    width: 13.43rem;
+    height: 5.37rem;
+    background-color: #f0f2f5;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cashback-products .monthly-invoice,
+.cashback-products .cashback-porc {
+    margin: 0 0 1.5rem 0;
+}
+
+.cashback-products .monthly-cashback,
+.cashback-products .annual-cashback {
+    margin: 0 0.5rem 0 0;
+}
+
+.cashback-products .monthly-invoice h2,
+.cashback-products .cashback-porc h2,
+.cashback-products .monthly-cashback h2,
+.cashback-products .annual-cashback h2 {
+    position: static;
+    margin-top: 1rem;
+    font-size: 1.75rem;
+}
+
+.cashback-products .monthly-invoice h2 {
+    color: #29292b;
+}
+
+.cashback-products .cashback-porc h2,
+.cashback-products .monthly-cashback h2 {
+    color: #a3abb7;
+}
+
+.cashback-products .annual-cashback h2.blue {
+    color: #00bab3;
+}
+
+.cashback-products .l1 .b2 {
+    margin-left: 1.4rem;
+}
+
+.cashback-products .b2 {
+    margin-left: 1rem;
+}
+
+.cashback-products .monthly-invoice h4,
+.cashback-products .cashback-porc h4,
+.cashback-products .monthly-cashback h4,
+.cashback-products .annual-cashback h4 {
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #29292b;
+}
+
+.slider-products .fourth-place img,
+.slider-products .sixth-place img {
+    margin-top: -5.1rem;
+    margin-right: -4rem;
+}
+
+.slider-products .text-fourth p span.ex {
+    font-weight: 900;
+}
+
+.text-fourth span.tx,
+.text-sixth span.tx  {
+    margin-left: 0!important;
+}
+
+.text-fifth span.tx{
+    margin-left: 1rem!important;
+}
+
+.slider-products .fifth img {
+    margin-top: -5rem;
+}
+
+.slider-products .sixth-place img {
+    margin-left: 11rem;
 }
