@@ -424,3 +424,95 @@ div.text-third h1 {
 .eleventh img {
     margin-top: -7em;
 }
+
+@media (max-width: 1024px) {
+    .slider-products .first,
+    .slider-products .second,
+    .slider-products .third,
+    .slider-products .fourth-place,
+    .slider-products .fifth,
+    .slider-products .sixth-place,
+    .slider-products .eighth,
+    .slider-products .ninth,
+    .slider-products .tenth,
+    .slider-products .eleventh {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slider-products .text-first p {
+        margin-right: 0;
+    }
+
+    .slider-products .text-second,
+    .slider-products .text-fourth,
+    .slider-products .text-sixth,
+    .slider-products .text-eighth,
+    .slider-products .text-ninth,
+    .slider-products .text-tenth,
+    .slider-products .text-eleventh{
+        margin-left: 0.5rem;
+    }
+
+    .slider-products .seven {
+        flex-direction: column;
+    }
+
+    .slider-products .seven .rec-carousel-wrapper {
+        position: absolute;
+    }
+
+    .slider-products .seven .text-seven {
+        margin-left: 0.5rem;
+        margin-top: 32rem;
+    }
+
+    .slider-products .text-seven a {
+        margin: 2rem 32rem 7rem 0rem;
+    }
+
+    .slider-products .eighth img,
+    .slider-products .ninth img {
+        margin-top: -3rem;
+    }
+
+    .slider-products .tenth img.band {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 890px) {
+    .slider-products .text-third {
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+
+    .slider-products .text-third .makeStyles-root-1 {
+        margin-left: 0rem!important;
+        margin-right: 0!important;
+        margin-top: 3rem!important;
+        width: 29rem!important;
+    }
+
+    .slider-products .text-seven a {
+        margin: 2rem 32rem 7rem 0rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .slider-products .text-seven a {
+        margin: 2rem 20rem 7rem 0rem; 
+    }
+}
+
+@media (max-width: 655px) {
+    .slider-products .text-seven a {
+        margin: 2rem 10rem 7rem 0rem; 
+    }
+}
+
+@media (max-width: 492px) {
+    .slider-products .text-seven a {
+        margin: 2rem 5rem 7rem 0rem; 
+    }
+}
