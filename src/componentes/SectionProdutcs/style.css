@@ -28,7 +28,10 @@
 }
 
 .slider-products div.first h2,
-.slider-products .fifth h2 {
+.slider-products .fifth h2,
+.slider-products .seven h2,
+.slider-products .ninth h2,
+.slider-products .eleventh h2 {
     position: absolute;
     right: 0.5rem;
     top: -2rem;
@@ -36,7 +39,11 @@
 }
 
 .slider-products .text-first,
-.slider-products .text-fifth {
+.slider-products .text-fifth,
+.slider-products .text-seven,
+.slider-products .text-ninth,
+.slider-products .text-tenth,
+.slider-products .text-eleventh {
     flex-direction: column;
     margin-top: 8rem;
 }
@@ -46,7 +53,12 @@
 .slider-products .text-third h1,
 .slider-products .text-fourth h1,
 .slider-products .text-fifth h1,
-.slider-products .text-sixth h1 {
+.slider-products .text-sixth h1,
+.slider-products .text-seven h1,
+.slider-products .text-eighth h1,
+.slider-products .text-ninth h1,
+.slider-products .text-tenth h1,
+.slider-products .text-eleventh h1 {
     font-size: 3rem;
 }
 
@@ -56,7 +68,12 @@
 .slider-products .text-fourth h1 span,
 .slider-products .text-fourth p span.ex,
 .slider-products .text-fifth h1 span,
-.slider-products .text-sixth h1 span {
+.slider-products .text-sixth h1 span,
+.slider-products .text-seven h1 span,
+.slider-products .text-eighth h1 span,
+.slider-products .text-ninth h1 span,
+.slider-products .text-tenth h1 span,
+.slider-products .text-eleventh h1 span {
     color: #00bab3;
 }
 
@@ -74,7 +91,9 @@
 
 .slider-products .second h2,
 .slider-products .fourth-place h2,
-.slider-products .sixth-place h2 {
+.slider-products .sixth-place h2,
+.slider-products .eighth h2,
+.slider-products .tenth h2 {
     margin-top: -2rem;
     color: #232432;
 }
@@ -82,7 +101,12 @@
 .slider-products .text-second p,
 .slider-products .fourth-place p,
 .slider-products .text-fifth p,
-.slider-products .text-sixth p {
+.slider-products .text-sixth p,
+.slider-products .text-seven p,
+.slider-products .text-eighth p,
+.slider-products .text-ninth p,
+.slider-products .text-tenth p,
+.slider-products .text-eleventh p {
     font-size: 1.11rem;
     margin-top: 1.5rem;
     line-height: 1.8rem;
@@ -90,7 +114,9 @@
 
 .slider-products .second img,
 .slider-products .fourth-place img,
-.slider-products .sixth-place img {
+.slider-products .sixth-place img,
+.slider-products .eighth img,
+.slider-products .tenth img{
     max-width: 100%;
     width: 41%;
     height: auto;
@@ -99,7 +125,9 @@
 
 .second .text-second,
 .fourth-place .text-fourth,
-.sixth-place .text-sixth {
+.sixth-place .text-sixth,
+.eighth .text-eighth,
+.tenth .text-tenth {
     flex-direction: column;
     margin-top: 6rem;
     margin-left: -5rem;
@@ -112,7 +140,11 @@
 
 .text-second img,
 .text-fourth img,
-.text-sixth img {
+.text-sixth img,
+.text-eighth img,
+.text-ninth img,
+.text-tenth img,
+.text-eleventh img {
     width: 5%!important;
     margin-right: 1rem!important;
 }
@@ -124,7 +156,11 @@
 .text-second span.tx,
 .text-fourth span.tx,
 .text-fifth span.tx,
-.text-sixth span.tx {
+.text-sixth span.tx,
+.text-eighth span.tx,
+.text-ninth span.tx,
+.text-tenth span.tx,
+.text-eleventh span.tx {
     margin-left: 3rem;
     color: #90949a;
     font-size: 1rem;
@@ -151,7 +187,9 @@
     color: #232432;
 }
 
-.third img {
+.third img,
+.ninth img,
+.eleventh img {
     max-width: 100%;
     width: 50%;
     margin-top: -2em;
@@ -171,7 +209,7 @@ div.text-third h1 {
     margin-top: 1rem;
 }
 
-.makeStyles-root-1 {
+.text-third .makeStyles-root-1 {
     margin-left: -6rem!important;
     margin-right: 0!important;
     margin-top: 3rem!important;
@@ -264,7 +302,11 @@ div.text-third h1 {
 }
 
 .text-fourth span.tx,
-.text-sixth span.tx  {
+.text-sixth span.tx,
+.text-eighth span.tx,
+.text-ninth span.tx,
+.text-tenth span.tx,
+.text-eleventh span.tx  {
     margin-left: 0!important;
 }
 
@@ -282,4 +324,103 @@ div.text-third h1 {
 
 .slider-products .sixth-place img {
     margin-left: 11rem; 
+}
+
+.seven div {
+    margin: 0;
+}
+
+.seven .text-seven {
+    margin-left: -36rem;
+    margin-top: 7rem;
+}
+
+.seven .cfKeGQ {
+    position: absolute!important;
+    top: 4.5rem!important;
+    left: 6.3rem!important;
+}
+
+.text-seven a,
+.text-ninth a {
+    position: relative;
+    text-decoration: none;
+    color: #fff ;
+    background-color: #00bab3;
+    font-weight: 600;
+    padding: 1.2rem 5.5rem 1.2rem 5.4rem;
+    border-radius: 1rem;
+    margin: 2rem 14rem 7rem 0rem;
+}
+
+.text-seven a:hover,
+.text-ninth a:hover {
+    border: 1px solid #00bab3;
+    background-color: #37ddd8;
+    transition: all .2s;
+}
+
+.text-seven img.nextWhite,
+.text-ninth img.nextWhite {
+    top: 0.9rem;
+    left: 10.5rem;
+    position: absolute;
+}
+
+.text-ninth img.nextWhite {
+    top: 3.1rem;
+    left: 10.5rem;
+}
+
+.slider-products .rec-pagination {
+    position: absolute;
+    top: 25.3rem;
+    left: 18rem;
+}
+
+.slider-products .rec-item-wrapper {
+    height: 20rem;
+}
+
+.slider-products .rec-slider-container,
+.slider-products .rec-carousel {
+    position: absolute;
+    flex-direction: column;
+    top: 0rem;
+    left: -3rem;
+    width: 33rem;
+}
+
+.slider-products .rec-arrow {
+    top: 22.5rem;
+}
+
+.slider-products .eighth img {
+    margin-top: -9rem;
+}
+
+.slider-products .eighth p {
+    font-weight: 900;
+}
+
+.slider-products .eighth p span.obs {
+    color: #00bab3;
+}
+
+.slider-products .ninth img {
+    margin-top: -9rem;
+}
+
+.slider-products .text-tenth {
+    margin-left: 0!important;
+}
+
+.slider-products .tenth img.band {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    height: 100%;
+}
+
+.eleventh img {
+    margin-top: -7em;
 }

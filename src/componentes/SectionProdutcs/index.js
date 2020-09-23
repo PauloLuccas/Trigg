@@ -1,4 +1,6 @@
 import React from 'react';
+import Carousel from 'react-elastic-carousel';
+import { Link } from 'react-router-dom';
 
 import startApp from '../../assets/images/start_app.png';
 import badgePlayStore from '../../assets/images/badge_play_store_desk.svg';
@@ -9,6 +11,14 @@ import cashback from '../../assets/images/cashback.png';
 import smilingBearded from '../../assets/images/barbudo_sorridente.png';
 import myPet from '../../assets/images/img_meu_pet.png';
 import plannedWithdrawal from '../../assets/images/img_saque_planejado.png';
+import cardsUm from '../../assets/images/img_cards_1.png';
+import cardsDois from '../../assets/images/img_cards_2.png';
+import cardsTres from '../../assets/images/img_cards_3.png';
+import nextWhite from '../../assets/images/next-white.svg';
+import multipleCard from '../../assets/images/varios_cartoes.png';
+import samsungPay from '../../assets/images/samsung_pay.png';
+import imgBand from '../../assets/images/img_band.png';
+import moreMoney from '../../assets/images/img_mais_grana.png';
 
 import InputSlider from '../../controllers/InputSlider/';
 
@@ -206,32 +216,154 @@ export default function SectionProducts() {
                 </div>
 
                 <div className="slider-products">
-                    <div>
-                        <h2>teste7</h2>
+                    <div className="seven">
+                        <h2>#CartõesTemáticos</h2> 
+                        <Carousel >
+                            <div className="f1">
+                                <img src={cardsUm} alt="Cartão Um"/>
+                            </div>
+
+                            <div className="f2">
+                                <img src={cardsDois} alt="Cartão Dois"/>
+                            </div>
+
+                            <div className="f3">
+                                <img src={cardsTres} alt="Cartão Três"/>
+                            </div>
+                        </Carousel>
+
+                        <div className="text-seven">
+                            <h1>Um cartão de crédito <span><br/>com a sua cara</span></h1>
+                            <p>Que tal um cartão que combine com você? Melhor ainda, que <br/> tal
+                                uma coleção de cartões só sua?</p>
+                            
+                            <Link to="/">
+                                Saiba Mais
+                                <img src={nextWhite} className="nextWhite" alt="Icon next"/>
+                            </Link>
+                        </div>
                     </div>
                 </div>
 
                 <div className="slider-products">
-                    <div>
-                        <h2>teste8</h2>
+                    <div className="eighth">
+                        <h2>#CartãoAdicional</h2>
+
+                        <div className="text-eighth">
+                            <h1>Compartilhe a experiência Trigg com o <span>Cartão Adicional</span> </h1>
+                            <p>Viva seu melhor lado <span className="obs">com as pessoas que ama!</span></p>
+
+                            <p className="bl">
+                                <img src={check} alt="check"/>
+                                <span className="tx">
+                                    Gerencie o limite e gastos de todos os cartões
+                                </span>
+                            </p>
+                            
+                            <p className="bl">
+                                <img src={check} alt="check"/>
+                                <span className="tx">
+                                    Solicite para pessoas acima de 8 anos
+                                </span>
+                            </p>
+                        </div>
+
+                        <img src={multipleCard} alt="Vários Cartões"/>
                     </div>
                 </div>
 
                 <div className="slider-products">
-                    <div>
-                        <h2>teste9</h2>
+                    <div className="ninth">
+                        <h2>#SamsungPay</h2>
+                        <img src={samsungPay} alt="Samsung Pay"/>
+
+                        <div className="text-ninth">
+                            <h1>Modernidade <span>no pagamento</span></h1>
+                            <p>Não sai do celular? Tranquilo! Estamos no Samsung Pay!
+                                Uma forma fácil e segura de pagar com cartão de crédito.</p>
+
+                            <p className="bl">
+                                <img src={check} alt="check"/>
+                                <span className="tx">
+                                    Cadastre e ative seu Trigg no Samsung Pay
+                                </span>
+                            </p>
+                            
+                            <p className="bl">
+                                <img src={check} alt="check"/>
+                                <span className="tx">
+                                    Faça compras usando a tecnologia NFC do seu celular
+                                </span>
+                            </p>
+
+                            <Link to="/">
+                                Saiba Mais
+                                <img src={nextWhite} className="nextWhite" alt="Icon next"/>
+                            </Link>
+                        </div>
                     </div>
                 </div>
 
                 <div className="slider-products">
-                    <div>
-                        <h2>teste10</h2>
+                    <div className="tenth">
+                        <h2>#BandTrigg</h2>
+
+                        <div className="text-tenth">
+                            <h1>Vista o seu <span>cartão de crédito</span></h1>
+                            <p>Achamos que sonhar com um mundo mais moderno era pouco.
+                                Então inovamos! Lançamos a primeira pulseira de pagamento por 
+                                aproximação do mercado, a Band.</p>
+
+                                <p className="bl">
+                                <img src={check} alt="check"/>
+                                <span className="tx">
+                                    À prova d’água
+                                </span>
+                            </p>
+                            
+                            <p className="bl">
+                                <img src={check} alt="check"/>
+                                <span className="tx">
+                                    Com tecnologia NFC
+                                </span>
+                            </p>
+
+                            <p className="bl">
+                                <img src={check} alt="check"/>
+                                <span className="tx">
+                                    Mais segurança no dia a dia
+                                </span>
+                            </p>
+                        </div>
+
+                        <img className="band" src={imgBand} alt="Img band"/>
                     </div>
                 </div>
 
                 <div className="slider-products">
-                    <div>
-                        <h2>teste11</h2>
+                    <div className="eleventh">
+                        <h2>#MaisGrana</h2>
+                        <img src={moreMoney} alt="Mais Grana"/>
+
+                        <div className="text-eleventh">
+                            <h1>Precisa de uma grana para tirar os sonhos do papel? <span>Vem de +Grana</span></h1>
+                            <p>O +Grana é um valor pré-aprovado e liberado de acordo com o seu relacionamento com a gente</p>
+
+
+                            <p className="bl">
+                                <img src={check} alt="check"/>
+                                <span className="tx">
+                                    Contrate no App em poucos cliques
+                                </span>
+                            </p>
+
+                            <p className="bl">
+                                <img src={check} alt="check"/>
+                                <span className="tx">
+                                    Receba o valor direto em sua conta corrente
+                                </span>
+                            </p>
+                        </div>
                     </div>
                 </div>
         </section>
