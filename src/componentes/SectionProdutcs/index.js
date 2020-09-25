@@ -296,7 +296,7 @@ export default function SectionProducts() {
                                 </span>
                             </p>
 
-                            <Link to="/">
+                            <Link to="/samsung-pay">
                                 Saiba Mais
                                 <img src={nextWhite} className="nextWhite" alt="Icon next"/>
                             </Link>

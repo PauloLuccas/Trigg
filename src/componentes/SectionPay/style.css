@@ -1,0 +1,70 @@
+.samsung-container {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    background-color: #f0f2f5;
+}
+
+.samsung-container .credit-card {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin: -12rem 4.1rem 5rem 4.1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.samsung-container .credit-card img {
+    max-width: 100%;
+    width: 41%;
+    height: auto;
+}
+
+.credit-card img.credit-pay {
+    margin-left: 2rem;
+    margin-top: -5rem;
+}
+
+.samsung-container .credit-text {
+    margin-top: 5.5rem;
+}
+
+.samsung-container .credit-text h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.samsung-container .credit-text h1 span {
+    color: #00bab3;
+}
+
+.samsung-container .credit-text p {
+    font-size: 1.12rem;
+    margin-top: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.samsung-container .credit-text a {
+    position: relative;
+    text-decoration: none;
+    color: #fff ;
+    background-color: #00bab3;
+    font-weight: 600;
+    padding: 1.2rem 5.5rem 1.2rem 5.4rem;
+    border-radius: 1rem;
+    margin: 2rem 14rem 7rem 0rem;
+}
+
+.samsung-container .credit-text a:hover {
+    border: 1px solid #00bab3;
+    background-color: #37ddd8;
+    transition: all .2s;
+}
+
+.samsung-container .credit-text img.nextWhite {
+    top: 0.9rem;
+    left: 12.5rem;
+    position: absolute;
+    width: 10%;
+}
