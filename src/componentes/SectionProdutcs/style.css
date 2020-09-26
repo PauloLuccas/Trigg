@@ -368,7 +368,8 @@ div.text-third h1 {
 }
 
 .text-ninth img.nextWhite {
-    top: 3.1rem;
+    width: 9%!important;
+    top: 10rem;
     left: 10.5rem;
 }
 

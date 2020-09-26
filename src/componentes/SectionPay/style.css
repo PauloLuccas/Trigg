@@ -30,16 +30,21 @@
     margin-top: 5.5rem;
 }
 
-.samsung-container .credit-text h1 {
+.samsung-container .credit-text h1,
+.samsung-container .compatibleDevices h1,
+.samsung-container .textOrder h1 {
     font-size: 3rem;
     font-weight: 900;
 }
 
-.samsung-container .credit-text h1 span {
+.samsung-container .credit-text h1 span,
+.samsung-container .compatibleDevices h1 span,
+.samsung-container .textOrder h1 span {
     color: #00bab3;
 }
 
-.samsung-container .credit-text p {
+.samsung-container .credit-text p,
+.samsung-container .textOrder p {
     font-size: 1.12rem;
     margin-top: 1.2rem;
     margin-bottom: 3rem;
@@ -67,4 +72,115 @@
     left: 12.5rem;
     position: absolute;
     width: 10%;
+}
+
+.samsung-container .compatibleDevices {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tutorial {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.tutorial img {
+    margin: 2rem;
+}
+
+.step1,
+.step2,
+.step3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+    background-color: #fff;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.step1 {
+    margin-left: 4rem;
+}
+
+.step3 {
+    margin-right: 4rem;
+}
+
+.tutorial h3 {
+    font-size: 1.25rem;
+    color: #00bab3;
+    margin-top: 1rem;
+}
+
+.tutorial p {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    line-height: 1.35rem;
+}
+
+.compatibleDevices a {
+    position: relative;
+    text-decoration: none;
+    color: #fff ;
+    background-color: #00bab3;
+    font-weight: 600;
+    padding: 1.2rem 5.5rem 1.2rem 5.4rem;
+    border-radius: 1rem;
+    margin: 2rem 32rem 3rem 32rem;
+}
+
+.compatibleDevices a:hover {
+    border: 1px solid #00bab3;
+    background-color: #37ddd8;
+    transition: all .2s;
+}
+
+.compatibleDevices img.nextWhite {
+    top: 1rem;
+    left: 15rem;
+    position: absolute;
+    width: 7%;
+}
+
+.compatibleDevices iframe {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 18.5rem;
+    border-radius: 1rem;
+    margin-bottom: 10rem;
+}
+
+.orderNow-container img.samsungFull {
+    width: 100%;
+    height: auto;
+    height: 21rem;
+}
+
+.orderNow {
+    display: flex;
+    flex-direction: row;
+    padding: 0 4rem 0 4rem;
+    background-color: #fff;
+}
+
+.orderNow img.startApp {
+    max-width: 100%;
+    width: 35%;
+    height: auto;
+    margin: -7rem 1rem 13rem 2rem;
+}
+
+.orderNow .textOrder {
+    margin: 8rem 3rem 0 8rem;
+}
+
+.orderNow .store-text {
+    display: flex;
+    justify-content: space-between;
+    margin: -3rem 10rem 0rem 1.2rem;
 }
