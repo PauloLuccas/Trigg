@@ -216,3 +216,49 @@ hr {
         margin-right: -3.4rem;
     }
 }   
+
+@media (max-width: 425px) {
+
+    .container-footer .social-network {
+        padding: 0 2.3rem 0 5.3rem;
+    }
+
+    .footer-informations {
+        margin: 0 2.3rem 3rem 2.3rem;
+    }
+
+    footer.container-footer {
+        padding-bottom: 70rem;
+    }
+
+    .footer-informations .p-store {
+        margin-bottom: 3rem;
+    }
+
+    .associate-member {
+        padding: 6rem 2.3rem 3rem 2.3rem;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .container-footer .social-network {
+        padding: 0 2rem 0 2rem;
+    }
+
+    .footer-informations {
+        margin: 0 1rem 3rem 1rem;
+    }
+
+    .associate-member {
+        padding: 6rem 3rem 3rem 0rem;
+    }
+
+    .associate-member p {
+        margin: 1rem 0 1rem 2rem;
+    }
+
+    .logo-member {
+        margin-left: 2rem;
+    }
+}

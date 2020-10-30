@@ -56,7 +56,7 @@
     color: #fff ;
     background-color: #00bab3;
     font-weight: 600;
-    padding: 1.2rem 5.5rem 1.2rem 5.4rem;
+    padding: 1.2rem 5.5rem 1.2rem 4.8rem;
     border-radius: 1rem;
     margin: 2rem 14rem 7rem 0rem;
 }
@@ -183,4 +183,194 @@
     display: flex;
     justify-content: space-between;
     margin: -3rem 10rem 0rem 1.2rem;
+}
+
+@media (max-width: 1024px) {
+    .samsung-container .credit-card {
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+
+    .credit-card img.credit-pay {
+        align-self: center; 
+        width: 55%;
+    }
+
+    .samsung-container .credit-text {
+        margin: 5.5rem 4rem 0 4rem;
+    }
+
+    .samsung-container .credit-text a {
+        margin: 2rem 0rem 7rem 16rem
+    }
+
+    .tutorial {
+        flex-direction: column;
+    }
+
+    .step1,
+    .step2,
+    .step3 {
+        margin: 0 4.1rem 2rem 4.1rem;
+    }
+
+    .step1 img {
+        margin-right: 4.5rem;
+    }
+
+    .step3 img {
+        margin-right: 3.1rem;
+    }
+
+    .compatibleDevices a {
+        margin: 2rem 20rem 7rem 23rem;
+    }
+
+    .compatibleDevices iframe {
+        margin-left: 6.5rem;
+    }
+    
+    .orderNow {
+        flex-direction: column;
+    }
+
+    .orderNow img.startApp {
+        align-self: center;
+        margin-bottom: 0;
+    }
+
+    .orderNow .textOrder {
+        margin: 4rem 4rem 0 8rem;
+    }
+
+    .store-text img {
+        margin: 3rem 3rem 3rem 1.6rem;
+    }
+}
+
+@media (max-width: 890px) {
+    .samsung-container .credit-text a {
+        margin: 2rem 0rem 7rem 12rem;       
+    }
+
+    .compatibleDevices a {
+        margin: 2rem 16rem 7rem 18rem;
+    }
+
+    .compatibleDevices iframe {
+        margin-left: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .samsung-container .credit-text a {
+        margin: 2rem 0rem 7rem 8rem;
+    }
+
+    .compatibleDevices a {
+        margin: 2rem 12rem 7rem 16rem;
+    }
+
+    .compatibleDevices iframe {
+        margin-left: 6rem;
+        width: 75%;
+    }
+
+    .store-text img {
+        margin: 3rem 3rem 3rem -1.4rem;
+    }
+}
+
+@media (max-width: 655px) {
+    .samsung-container .credit-text a {
+        margin: 2rem 0rem 7rem 3rem;
+    }
+
+    .compatibleDevices a {
+        margin: 2rem 10rem 7rem 10rem;
+    }
+
+    .compatibleDevices iframe {
+        width: 40rem;
+        margin-left: 0;
+    }
+
+    .orderNow .textOrder {
+        margin: 4rem 4rem 0px 3rem;
+    }
+
+    .store-text img {
+        margin: 3rem 3rem 3rem -1.4rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .samsung-container .credit-card {
+        margin: -12rem 1.3rem 5rem 1.3rem;
+    }
+
+    .credit-card img.credit-pay {
+        margin: -6rem 0 -3rem 0;
+        align-self: center;
+        width: 100%!important;
+    }
+
+    .samsung-container .credit-text {
+        margin: 5.5rem 1rem 0 1rem;
+    }
+
+    .step1, .step2, .step3 {
+        margin: 0 1.3rem 2rem 1.3rem;
+    }
+
+    .compatibleDevices a {
+        margin: 2rem 3rem 7rem 2.9rem;
+    }
+
+    .compatibleDevices iframe {
+        width: 24rem;
+        margin-left: 1.3rem;
+    }
+
+    .orderNow img.startApp {
+        width: 100%;
+    }
+
+    .orderNow .textOrder {
+        margin: 4rem 0rem 0rem 0rem;
+    }
+
+    .orderNow .store-text {
+        margin: -3rem 0rem 0rem -2.8rem;
+    }
+
+    .store-text img {
+        margin: 3rem 0rem 3rem 0.6rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .samsung-container .credit-text a {
+        margin: 2rem 0rem 7rem 0rem;
+    }
+
+    .orderNow .store-text {
+        margin: 6rem 0rem 0rem -0.8rem;
+        flex-direction: column;
+    }
+
+    .store-text img {
+        margin: -2rem 0rem 3rem 0.6rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .samsung-container .credit-text a {
+        margin: 2rem -.99rem 7rem .1rem;
+    }
+
+    .compatibleDevices iframe {
+        width: 19rem;
+        margin-left: 0.3rem;
+    }
 }

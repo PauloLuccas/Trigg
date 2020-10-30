@@ -3,6 +3,7 @@
     width: 159.8%;
     height: 30rem;
     background-size: contain;
+    opacity: 1;
 }
 
 .banner ul {
@@ -85,5 +86,15 @@
         display: block;
         width: 8rem;
         margin: 22rem 0 0 5rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .banner {
+        width: 119%;
+    }
+
+    .banner ul {
+        margin: 5rem 0 0 4rem;
     }
 }

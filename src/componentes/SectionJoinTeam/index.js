@@ -1,14 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
 
 import star from '../../assets/images/star.svg';
 import handshake from '../../assets/images/rock_on_trigg.png';
 
 import './style.css';
+import 'aos/dist/aos.css';
 
 export default function SectionJoinTeam() {
+
+    AOS.init({
+        duration: 1200,
+    });
+
     return (
-        <section className="join-container">
+        <section className="join-container" data-aos="fade-out">
             <div className="joinTeam">
                 <img className="handshake" src={handshake} alt="handshake"/>
                 

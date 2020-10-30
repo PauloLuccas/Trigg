@@ -1,13 +1,20 @@
 import React from 'react';
+import AOS from 'aos';
 
 import imgTrigg from '../../assets/images/img_about.png';
 import check from '../../assets/images/tick.svg';
 
 import './style.css';
+import 'aos/dist/aos.css';  
 
 export default function SectionTheTrigg() {
+
+    AOS.init({
+        duration: 1200,
+    })
+
     return (
-        <section className="container-trigg">
+        <section className="container-trigg" data-aos="fade-zoom">
                 <div className="hello-trigg">
                     <div className="img-hello">
                         <img src={imgTrigg} alt="Imagem Trigg"/>

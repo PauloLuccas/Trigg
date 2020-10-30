@@ -182,3 +182,15 @@
         margin-bottom: 8rem;
     }
 }
+
+@media (max-width: 425px) {
+    .OurStory .text-story h1 {
+        margin: 0 0rem 2rem -2.5rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .OurStory .text-story h1 {
+        margin: 0 0rem 2rem 1.5rem;
+    }
+}

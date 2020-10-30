@@ -1,12 +1,18 @@
 import React from 'react';
 import Carousel from 'react-elastic-carousel';
+import AOS from 'aos'
 
 import './style.css';
+import 'aos/dist/aos.css';
 
 export default function SectionOurStory() {
 
+    AOS.init({
+        duration: 1200,
+    });
+
     return (
-        <section className="OurStory">
+        <section className="OurStory" data-aos="fade-zoom">
             
             <div className="text-story">
                 <h1>Nossa <span>história</span></h1>

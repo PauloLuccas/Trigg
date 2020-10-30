@@ -1,15 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
 
 import eventoTrigg from '../../assets/images/evento-trigg.jpg';
 import check from '../../assets/images/tick.svg';
 import nextWhite from '../../assets/images/next-white.svg';
 
 import './style.css';
+import 'aos/dist/aos.css';
 
 export default function SectionAbout() {
+
+    AOS.init({
+        duration: 1200,
+    });
+
     return (
-        <section className="container-about">
+        <section className="container-about" data-aos="fade-zoom">
             <div className="about">
                 <div className="banner-about">
                     <img src={eventoTrigg} alt="Evento Trigg"/>

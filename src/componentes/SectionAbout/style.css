@@ -90,3 +90,18 @@
         margin: 0px 7.2rem 0 7rem;
     }
 }
+
+@media (max-width: 425px) {
+    .about {
+        margin: 0px 1.2rem 0 1.2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .text-about a {
+        padding: 1.5rem 3rem 1.5rem 3.5rem;
+    }
+    .about {
+        margin: 0px 0.5rem 0 0;
+    }
+}

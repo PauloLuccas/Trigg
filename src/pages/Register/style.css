@@ -1,0 +1,168 @@
+.register-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.register-container .left {
+    width: 51%;
+    min-height: 100vh;
+    background-image: url('../../assets/images/fullbanner.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-container .left .logo {
+    margin-top: 6rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: .15rem;
+}
+
+.register-container .left .text-left {
+    margin-top: 5rem;
+    font-size: 1.75rem;
+    text-align: center;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.register-container .left .img-principal {
+    margin-top: 5rem;
+    width: auto;
+}
+
+.register-container .right {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-container .insert-data {
+    padding: 6rem 6.25rem 0 6.25rem;
+}
+
+.register-container .insert-data h1 {
+    font-size: 1.43rem;
+    text-align: center;
+    line-height: 2rem;
+    padding: 0 2rem 0 2rem;
+}
+
+.register-container .insert-data span {
+    color: #00bab3;
+}
+
+.register-container .insert-data .cp-1 input[type="text"],
+.register-container .insert-data .cp-2 input[type="password"] {
+    padding: 0.9rem 0.9rem 0.9rem 2.5rem;  
+}
+
+.register-container .insert-data label {
+    position: relative;
+}
+
+.register-container .insert-data img {
+    position: absolute;
+    top: 2.1rem;
+    left: 0.5rem;
+}
+
+.register-container .btn-register button {
+    position: relative;
+    width: 100%;
+    -webkit-appearance: media-sliderthumb;
+    appearance: media-sliderthumb;
+    border-radius: 0.25rem;
+    border-width: 2px;
+    padding: 0.9rem 0.9rem;
+    margin-top: 0.25rem;
+    line-height: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 1.26px;
+    color: #fff;
+    background-color: #00bab3;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.register-container .btn-register button:hover {
+    background-color: #e2e8f0;
+    color: #00bab3;
+    appearance: button;
+    -webkit-appearance: button;
+}
+
+.register-container .btn-register img {
+    left: 18.5rem;
+    top: 0.4rem;
+}
+
+.register-container .btn-register span {
+    color: #000;
+    margin-left: 9rem;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 1024px) {
+
+    .register-container .insert-data {
+        padding-top: 2.5rem;
+    }
+
+    .register-container .btn-register span {
+        margin-left: auto;
+    }
+
+    .register-container .btn-register img {
+        left: 13rem;
+    }
+
+    .register-container .insert-data h1 {
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width: 830px) {
+    .register-container .insert-data {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .register-container .left .img-principal img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .register-container {
+        flex-direction: column;
+    }
+
+    .register-container .left {
+        width: 100%;
+    }
+
+    .register-container .left .text-left {
+        margin-top: 7rem;
+    }
+
+    .register-container .left .img-principal {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .register-container .right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .register-container .left {
+    min-height: 69vh;
+    }
+}

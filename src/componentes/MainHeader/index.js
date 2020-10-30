@@ -71,8 +71,9 @@ export default function MainHeader() {
             </div>
             <div className="appTrigg">
                 <img id="appMobile" src={mobile} alt="mobile"/>
+            </div>
 
-                <div className="social-networks">
+            <div className="social-networks">
                     <Link to="/">
                         <img src={facebookIcon} alt="Facebook" className="facebookIcon"/>
                     </Link>
@@ -85,7 +86,6 @@ export default function MainHeader() {
                         <img src={instagramIcon} alt="Instagram" className="instagramIcon"/>
                     </Link>
                 </div>
-            </div>
 
             <SectionBanner />
         </section>

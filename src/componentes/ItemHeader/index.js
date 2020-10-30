@@ -1,15 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+
+import MenuDefault from '../../componentes/MenuResponsivo';
 
 import './style.css';
+import 'aos/dist/aos.css';
 
 export default function ItemHeader(props) {
+
+    AOS.init({
+        duration: 1200,
+    });
+
     return (
-        <div className="page-header">
+        <div className="page-header" data-aos="fade-down">
             <div className="top-bar-container">
                 <div id="logo-header-mobile" className="logo-header">
                     <Link to="/">
-                        <img src={props.imagem} alt="Logo Trigg"/>
+                        <img src={props.imagem} className="btn-logo" alt="Logo Trigg"/>
                     </Link>
                 </div>
 
@@ -25,24 +34,29 @@ export default function ItemHeader(props) {
                     </Link>
                 </div>
 
-                <div className="cashback-header">
-                    <p>Cashback</p>
-                </div>
-
                 <div className="tag-header">
-                    <p>Dúvidas?</p>
+                    <Link to="/faq">
+                        <p>Perguntas Frequêntes</p>
+                    </Link>
                 </div>
                     
                 <div className="button-header">
-                    <Link to="/">
+                    <Link to="/login">
                         <img src={props.imagemicon} alt="Icon"></img>
                         Acessar Conta
                     </Link>
                 </div>
 
-                <button id="menu-mobile" className="menu-button">
-                    <img src={props.imagemenu} alt="Menu Icon"/>
-                </button>
+                <div className="button-header login">
+                    <Link to="/register">
+                        <img src={props.imagelogin} alt="Icon"></img>
+                        Pedir Cartão
+                    </Link>
+                </div>
+
+                <div className="button-mobile">
+                    <MenuDefault />
+                </div>
             </div>
             
         </div>

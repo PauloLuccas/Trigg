@@ -1,0 +1,82 @@
+.form-login {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form-login .f-login {
+    padding: 1.5rem 2rem 2rem 2rem;
+    max-width: 28rem;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06);
+}
+
+.form-login .f-login h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    border-bottom-width: 0.15rem;
+    border-color: rgba(0,186,179, 1);
+    border-bottom-style: solid;
+}
+
+.cp-1 {
+    margin-bottom: 1rem;
+}
+
+.cp-1 label,
+.cp-2 label {
+    margin-bottom: 0.35rem;
+    color: rgba(74,85,104, 1);
+    font-size: 0.9rem;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+}
+
+.cp-1 input,
+.cp-2 input {
+    width: 100%;
+    appearance: media-sliderthumb;
+    -webkit-appearance: media-sliderthumb;
+    border-radius: 0.25rem;
+    border-width: 2px;
+    padding: 0.9rem 0.9rem;
+    margin-top: 0.25rem;
+    line-height: 1rem;
+    resize: none;
+    color: rgba(74,85,104, 1);
+    background-color: rgba(237,242,247, 1);
+}
+
+.cp-1 input[type="text"],
+.cp-2 input[type="password"] {
+    font-size: 1rem;
+}
+
+.cp-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cp-3 button {
+    appearance: media-sliderthumb;
+    -webkit-appearance: media-sliderthumb;
+    font-weight: 800;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #00bab3;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.cp-3 a {
+    color: #00bab3;
+    margin-top: 1rem;
+}

@@ -68,6 +68,10 @@
     margin: 2rem 2rem 0 0;
 }
 
+.container-section .cashback-simulation {
+    margin-left: 2rem;
+}
+
 .container-section .cashback-simulation h2 {
     font-weight: 500;
     font-size: 2rem;
@@ -145,6 +149,55 @@
     font-weight: bold;
 }
 
+.sliderContainer {
+    width: 75%;
+    margin-top: 200px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(90deg, rgb(214,214,214) 60%, #fff);
+    outline: none;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    border-radius: 12px;
+    box-shadow: 0px 1px 10px 1px black;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider::after {
+    content: '100';
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    left: 80%;
+    top: 26%;
+}
+
+.slider::before {
+    content: '0';
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    left: 12%;
+    top: 26%;
+}
+
 @media(max-width: 1200px) {
     .container-section {
         display: grid;
@@ -163,6 +216,12 @@
     
     .cashback-simulation span.MuiSlider-root {
         width: 177%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container-section .cashback-simulation {
+        margin-left: 8.5rem;
     }
 }
 
@@ -200,6 +259,12 @@
     .cashback-img {
         margin-left: 7rem;
         margin-top: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-section .cashback-simulation {
+        margin-left: 0rem;
     }
 }
 
@@ -251,4 +316,54 @@
     .cashback-simulation span.MuiSlider-root {
         width: 95%;
     }
+}
+
+@media (max-width: 320px) {
+    .container-section {
+        margin-left: 0;
+    }
+
+    .cashback {
+        margin-left: 1rem;
+    }
+
+    .container-section .cashback .button {
+        width: 18rem;
+    }
+
+    .container-section .cashback-simulation {
+        margin-left: 1rem;
+    }
+
+    .container-section .cashback-simulation {
+        margin-left: 1rem;
+        margin-right: 0.3rem;
+    }
+
+    .container-section .cashback-simulation p {
+        margin-right: 0.8rem;
+    }
+
+    .cashback-simulation span.MuiSlider-root {
+        width: 86%;
+    }
+
+    .calc-simulation {
+        flex-direction: column;
+        margin-right: 1rem;
+    }
+
+    .calc-simulation p.title {
+        width: 100%;
+    }
+
+    .calc-simulation .resgate-ano p.titles {
+        width: 100%;
+    }
+
+    .por-simulation,
+    .resgate-mes {
+        margin-bottom: 1rem;
+    }
+
 }

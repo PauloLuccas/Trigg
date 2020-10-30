@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
 
 import samsungPay from '../../assets/images/samsung_pay.png';
 import nextWhite from '../../assets/images/next-white.svg';
@@ -12,11 +13,17 @@ import badgePlayStore from '../../assets/images/badge_play_store_desk.svg';
 import badgeApple from '../../assets/images/apple_store_badge.svg';
 
 import './style.css';
+import 'aos/dist/aos.css';
 
 export default function SectionPay() {
+
+    AOS.init({
+        duration: 1200,
+    })
+
     return (
         <div className="samsung-container">
-            <div className="credit-card">
+            <div className="credit-card" data-aos="fade-zoom">
                 <img src={samsungPay} className="credit-pay" alt="App samsung pay"/>
 
                 <div className="credit-text">
@@ -31,10 +38,10 @@ export default function SectionPay() {
             </div>
 
             <div className="compatibleDevices">
-                <h1>Pegue o celular<br/><span>que montamos um tutorial</span></h1>
+                <h1 data-aos="fade-up">Pegue o celular<br/><span>que montamos um tutorial</span></h1>
                 
                 <div className="tutorial">
-                    <div className="step1">
+                    <div className="step1" data-aos="fade-right">
                         <img src={idDigital} alt="Id Digital"/>
                         
                         <div className="text-tutorial">
@@ -46,7 +53,7 @@ export default function SectionPay() {
                         </div>
                     </div>
 
-                    <div className="step2">
+                    <div className="step2" data-aos="fade-up">
                         <img src={iconAtive} alt="Icon Ative"/>
                         
                         <div className="text-tutorial">
@@ -58,7 +65,7 @@ export default function SectionPay() {
                         </div>
                     </div>
 
-                    <div className="step3">
+                    <div className="step3" data-aos="fade-left">
                         <img src={iconAproveite} alt="Icon Aproveite"/>
                         
                         <div className="text-tutorial">
@@ -77,20 +84,20 @@ export default function SectionPay() {
                 </Link>
 
 
-                <iframe width="797" height="446" src="https://www.youtube.com/embed/amAU7YlxSTI" 
+                <iframe data-aos="fade-up" width="797" height="446" src="https://www.youtube.com/embed/amAU7YlxSTI" 
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
                 gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
-            <div className="orderNow-container">
-                <img src={samsungFull} className="samsungFull" alt="Samsung Full"/>
+            <div className="orderNow-container" >
+                <img src={samsungFull} className="samsungFull" alt="Samsung Full" data-aos="fade-zoom"/>
 
-                <div className="orderNow">
+                <div className="orderNow" data-aos="fade-zoom">
                     <img src={startApp} className="startApp" alt="start app"/>
 
                     <div className="textOrder">
-                        <h1>Peça o seu <span>cartão Trigg!</span> </h1>
-                        <p>
+                        <h1 data-aos="fade-left">Peça o seu <span>cartão Trigg!</span> </h1>
+                        <p data-aos="fade-up">
                             Nos disseram que o mercado financeiro era complexo. Inquietos que somos,
                             simplificamos e colocamos tudo o que você precisa em um só App.
                         </p>

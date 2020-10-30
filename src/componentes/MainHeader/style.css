@@ -18,6 +18,24 @@
     line-height: 2.56rem;
     letter-spacing: -0.08rem;
     margin: 0;
+    opacity: 1;
+}
+
+/* ANIMATIONS */
+p.first-paragraph {
+    -webkit-animation: fadeIn .9s ease-in;
+    animation: fadeIn .9s ease-in;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .text h1 {
@@ -27,7 +45,25 @@
     line-height: 8.81rem;
     color: #fff;
     letter-spacing: 0.29rem;
-    margin: 0;
+    opacity: 1;
+}
+
+/* ANIMATIONS */
+.text h1 {
+    -webkit-animation: all 2s ease-in;
+    animation: all 2s ease-in;
+}
+
+@keyframes all {
+    0% {
+        opacity: 0;
+        transform: translateY(25px) ;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 .text .mobileApp  {
@@ -40,8 +76,21 @@
     margin-right: 2rem;
 }
 
+.manage {
+    margin-top: 0.5rem;
+}
+
 .text .card {
-    margin-right: 0.4rem;
+    margin-right: 0.5rem;
+    margin-top: 0.4rem;
+}
+
+.shield {
+    margin-right: 0.8rem;
+}
+
+.we-give-back {
+    margin-right: 1.5rem;
 }
 
 .text .informations,
@@ -67,8 +116,14 @@
     border: 2px solid #fff;
     border-radius: 0.8rem;
     width: 12rem;
-    height: 3.5rem;
+    height: 3.7rem;
     margin-right: 2rem;
+}
+
+.text .apple-store:hover,
+.text .google-play:hover {
+    background: #d5d5d562;
+    transition: .1s;
 }
 
 .text .apple-store a,
@@ -99,14 +154,45 @@
 }
 
 .appTrigg img {
+    position: relative;
     width: 26rem;
     margin-bottom: 4rem;
+}
+
+/* ANIMATIONS */
+.appTrigg img{
+    -webkit-animation: wave 2s ease-in-out infinite alternate;
+    animation: wave 2s ease-in-out infinite alternate;
+}
+
+@keyframes wave {
+    from {
+        transform: translateY(20px);
+    }
 }
 
 .social-networks {
     position: absolute;
     top: 31.5rem;
     right: 10rem;
+}
+
+/* ANIMATIONS */
+
+.social-networks {
+    -webkit-animation: fadeInLeft 3s ease-in-out;
+    animation: fadeInLeft 3s ease-in-out;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(25px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .social-networks img {
@@ -248,3 +334,42 @@
         font-size: 1rem;
     }
 }
+
+@media (max-width: 425px) {
+    .container {
+        margin: -15rem 4.1rem 0 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .text p.first-paragraph {
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+
+    .text h1 {
+        font-size: 3.2rem;
+        margin-left: 0;
+    }
+
+    .text .informations {
+        margin-left: 0;
+    }
+    
+    img#appMobile {
+        margin-left: -1rem;
+    }
+
+    .text .online-store {
+        margin: 2rem 2rem 3rem 2.5rem;
+    }
+
+    .text .online-store {
+        flex-direction: column;
+    }
+
+    .text .apple-store {
+        margin-bottom: 1rem;
+    }
+}
+

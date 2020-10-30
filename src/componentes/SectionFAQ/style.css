@@ -1,0 +1,157 @@
+.faq-container {
+    width: 100%;
+    background: #e2e8f0;
+    margin-top: -7.5rem;
+}
+
+.duvidas {
+    position: relative;
+    display: flex;
+    margin: 0 0 0 4.5rem;
+}
+
+.duvidas h1 {
+    margin-top: -7.7rem;
+}
+
+#keyword {
+    margin: -7rem 0 4rem 15.7rem;
+    padding: 1rem 18.4rem 1rem 1rem;
+}
+
+.duvidas h1 {
+    color: #fff;
+    font-size: 3.62rem;
+}
+
+.faq-container .section-faq {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 0 4.5rem;
+}
+
+.section-faq .aboutApp {
+    margin-bottom: 5rem
+}
+
+.section-faq .aboutApp h2 {
+    font-size: 1.5rem;
+    color: #00bab3;
+    cursor: pointer;
+    margin: 5rem 0 5rem 0;
+}
+
+.section-faq .aboutApp li.listItem {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
+}
+
+.section-faq .aboutApp .style-header h3 {
+    letter-spacing: -0.03em;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.section-faq .aboutApp .style-header img {
+    position: absolute;
+    right: 2rem;
+    top: 1.75rem;
+    cursor: pointer;
+    width: 1.80rem;
+}
+
+.section-faq .aboutApp .listItem span {
+    color: rgba(0, 0, 0, 0.616);
+}
+
+#view_span2,
+#view_span1,
+#view_span3,
+#view_span4,
+#view_span5,
+#view_span6,
+#view_span7,
+#view_span8,
+#view_span9,
+#view_span10,
+#view_span11,
+#view_span12 {
+    display: none;
+}
+
+#style_header2 label,
+#style_header1 label,
+#style_header3 label,
+#style_header4 label,
+#style_header5 label,
+#style_header6 label,
+#style_header7 label,
+#style_header8 label,
+#style_header9 label,
+#style_header10 label,
+#style_header11 label,
+#style_header12 label {
+    -webkit-appearance: push-button;
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
+}
+
+#style_body2,
+#style_body1,
+#style_body3,
+#style_body4,
+#style_body5,
+#style_body6,
+#style_body7,
+#style_body8,
+#style_body9,
+#style_body10,
+#style_body11,
+#style_body12 {
+    opacity: 0;
+    padding: 0;
+    margin: -2rem 0 0 0;
+}
+
+#view_span2:checked ~ #style_body2,
+#view_span1:checked ~ #style_body1,
+#view_span3:checked ~ #style_body3,
+#view_span4:checked ~ #style_body4,
+#view_span5:checked ~ #style_body5,
+#view_span6:checked ~ #style_body6,
+#view_span7:checked ~ #style_body7,
+#view_span8:checked ~ #style_body8,
+#view_span9:checked ~ #style_body9,
+#view_span10:checked ~ #style_body10,
+#view_span11:checked ~ #style_body11,
+#view_span12:checked ~ #style_body12 {
+    opacity: 1;
+    margin: 0;
+}
+
+.giro {
+    animation: roll .5s linear;
+    transform: rotate(180deg);
+}
+
+@keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+
+@media(max-width: 1242px) {
+    .section-faq .aboutApp ul {
+        margin-right: 4rem;
+    }
+}

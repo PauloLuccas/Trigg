@@ -62,9 +62,35 @@
     width: 1.2rem;
     margin-right: 0.6rem;
   }
+
+  .login {
+    margin-left: -3rem!important;
+    background-color: #000;
+    border-radius: 1rem;
+  }
+
+  .login:hover {
+    background-color: #fff;
+  }
+
+  .login a:hover {
+    color: #01C2B0;
+  }
   
-  .menu-button {
-    display: none;
+  .login a img { 
+    width: 1.7rem!important;
+    margin-right: 0.6rem;
+    margin-left: -1rem;
+  }
+
+  .button-mobile {
+    margin-top: -2rem;
+  }
+
+  @media (max-width: 1210px) {
+    .login {
+      margin-left: 1.5rem!important;
+    }
   }
   
   @media (max-width: 1024px) {
@@ -76,18 +102,16 @@
     .button-header {
       display: none;
     }
-  
-    #menu-mobile {
-      display: block;
-      background: #01C2B0;
-      text-decoration: none;
-      border: none;
-      margin-bottom: 3rem;
-    }
   }
 
   @media (max-width: 450px) {
     .logo-header {
       margin-left: -2rem;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .logo-header {
+      margin-left: 0rem;
     }
   }

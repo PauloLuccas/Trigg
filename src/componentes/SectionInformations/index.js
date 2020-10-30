@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import InputSlider from '../../controllers/InputSlider/';
+import AOS from 'aos';
+import InputSlider from '../../controllers/InputSlider';
+
 import './style.css';
+import 'aos/dist/aos.css';
 
 import cashIcon from '../../assets/images/cashback.svg';
 import appleStore from '../../assets/images/logo-apple-blue.svg';
@@ -9,9 +12,14 @@ import googlePlay from '../../assets/images/logo-googleplay-blue.svg';
 import mobileFront from '../../assets/images/front.png';
 
 export default function SectionInformations() {
+
+    AOS.init({
+        duration: 1200,
+    });
+
     return (
         <section className="container-section">
-            <div className="cashback">
+            <div className="cashback" data-aos="fade-right">
                 <img src={cashIcon} alt="CashBack Icon"/>
                 <h1>CASHBACK</h1>
                 <p className="title">Seu dinheiro de volta!</p>
@@ -33,17 +41,17 @@ export default function SectionInformations() {
             </div>      
             </div>
 
-            <div className="cashback-img">
+            <div className="cashback-img" data-aos="fade-up">
                 <img src={mobileFront} alt="Mobile Front"/>
             </div>
 
-            <div className="cashback-simulation">
+            <div className="cashback-simulation" data-aos="fade-left">
                 <h2>Devolvemos até 1.3% do valor da sua compra.</h2>
                 <p>Simule o gasto mensal e veja quanto pode receber de volta.</p>
                 <h1>R$ 5.500,00</h1>
 
-               <InputSlider />
-
+                <InputSlider />
+                
                <div className="calc-simulation">
                    <div className="por-simulation">
                        <p className="title">% cashback</p>

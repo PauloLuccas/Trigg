@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header.header-top {
+    height: 4rem;
+    width: 100%;
+}
+
+.headerItens {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.headerItens a {
+    letter-spacing: -.025em;
+    line-height: 3.5rem;
+}
+
+.headerItens .logo a {
+    font-size: 2.25rem;
+}
+
+.headerItens .btn-login a {
+    font-size: 1.15rem;
+}
+
+.headerItens .btn-login a:hover {
+    color: #e2e8f0;
+}
+
+@media (max-width: 1073px) {
+    .headerItens .logo a {
+        margin-left: 0.9rem;
+    }
+
+    .headerItens .btn-login a {
+        margin-right: 0.9rem;
+    }
+}

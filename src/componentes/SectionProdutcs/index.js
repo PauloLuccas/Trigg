@@ -1,6 +1,9 @@
 import React from 'react';
 import Carousel from 'react-elastic-carousel';
+import AOS from 'aos'
 import { Link } from 'react-router-dom';
+
+import InputSlider from '../../controllers/InputSlider'
 
 import startApp from '../../assets/images/start_app.png';
 import badgePlayStore from '../../assets/images/badge_play_store_desk.svg';
@@ -20,17 +23,22 @@ import samsungPay from '../../assets/images/samsung_pay.png';
 import imgBand from '../../assets/images/img_band.png';
 import moreMoney from '../../assets/images/img_mais_grana.png';
 
-import InputSlider from '../../controllers/InputSlider/';
 
+import 'aos/dist/aos.css';
 import './style.css';
 
 export default function SectionProducts() {
+
+    AOS.init({
+        duration: 1200,
+    })
+
     return (
         <section className="products">
             <div className="slider-products">
-                    <div className="first">
+                    <div className="first" data-aos="fade-out">
                         <h2>#AppTrigg</h2>
-                        <img src={startApp} alt="Start App"/>
+                        <img src={startApp} className="startApp" alt="Start App"/>
 
                         <div className="text-first">
                             <h1>Um cartão <span>sem burocracia</span></h1>
@@ -50,7 +58,7 @@ export default function SectionProducts() {
                 </div>
 
                 <div className="slider-products">
-                    <div className="second">
+                    <div className="second" data-aos="fade-out">
                         <h2>#CashProtegido</h2>
 
                         <div className="text-second">
@@ -86,21 +94,24 @@ export default function SectionProducts() {
                             <h3>Contrate na <strong>Store + do App</strong></h3>
                         </div>
 
-                        <img src={cashProduct} alt="Cash Product"/>
+                        <img src={cashProduct} className="cashProduct" alt="Cash Product"/>
                     </div>
                 </div>
 
                 <div className="slider-products">
-                    <div className="third">
+                    <div className="third" data-aos="fade-out">
                         <h2>#Cashback</h2>
                         <img src={cashback} alt="Cashback"/>
 
                         <div className="text-third">
                             <h1>Cashback <span>Trigg</span></h1>
                             <p>Aqui todas as suas compras valem Cashback!</p>
-                            <InputSlider />
+                            
                             
                             <div className="cashback-products">
+                                
+                                <InputSlider />
+
                                 <div className="l1">
                                     <div className="monthly-invoice">
                                         <h2>R$0,00</h2>
@@ -130,7 +141,7 @@ export default function SectionProducts() {
                 </div>
 
                 <div className="slider-products">
-                    <div className="fourth-place">
+                    <div className="fourth-place" data-aos="fade-out">
                         <h2>#MemberGetMember</h2>
 
                         <div className="text-fourth">
@@ -159,7 +170,7 @@ export default function SectionProducts() {
                 </div>
 
                 <div className="slider-products">
-                    <div className="fifth">
+                    <div className="fifth" data-aos="fade-out">
                         <h2>#MeuPet</h2>
                         <img src={myPet} alt="Meu Pet"/>
 
@@ -186,7 +197,7 @@ export default function SectionProducts() {
                 </div>
 
                 <div className="slider-products">
-                    <div className="sixth-place">
+                    <div className="sixth-place" data-aos="fade-out">
                         <h2>#SaquePlanejado</h2>
 
                         <div className="text-sixth">
@@ -216,7 +227,7 @@ export default function SectionProducts() {
                 </div>
 
                 <div className="slider-products">
-                    <div className="seven">
+                    <div className="seven" data-aos="fade-out">
                         <h2>#CartõesTemáticos</h2> 
                         <Carousel >
                             <div className="f1">
@@ -246,7 +257,7 @@ export default function SectionProducts() {
                 </div>
 
                 <div className="slider-products">
-                    <div className="eighth">
+                    <div className="eighth" data-aos="fade-out">
                         <h2>#CartãoAdicional</h2>
 
                         <div className="text-eighth">
@@ -273,7 +284,7 @@ export default function SectionProducts() {
                 </div>
 
                 <div className="slider-products">
-                    <div className="ninth">
+                    <div className="ninth" data-aos="fade-out">
                         <h2>#SamsungPay</h2>
                         <img src={samsungPay} alt="Samsung Pay"/>
 
@@ -305,7 +316,7 @@ export default function SectionProducts() {
                 </div>
 
                 <div className="slider-products">
-                    <div className="tenth">
+                    <div className="tenth" data-aos="fade-out">
                         <h2>#BandTrigg</h2>
 
                         <div className="text-tenth">
@@ -341,7 +352,7 @@ export default function SectionProducts() {
                 </div>
 
                 <div className="slider-products">
-                    <div className="eleventh">
+                    <div className="eleventh" data-aos="fade-out">
                         <h2>#MaisGrana</h2>
                         <img src={moreMoney} alt="Mais Grana"/>
 
