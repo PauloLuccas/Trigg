@@ -19,9 +19,10 @@ O projeto **Banco Trigg** foi feita pelo @papaidesigner no #uichallange12, com a
 
 As principais tecnologias utilizadas para a construção dessa API foram:
 
-- [ReactJS](https://pt-br.reactjs.org/)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
+- [ReactJS](https://pt-br.reactjs.org/)
 
 ## 📦 Como baixar e executar?
 
