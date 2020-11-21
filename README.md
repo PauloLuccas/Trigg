@@ -13,6 +13,8 @@
 
 O projeto **Banco Trigg** foi feita pelo @papaidesigner no #uichallange12, com a finalidade de recriar o site para os alunos de UI. Eu como sou dev, peguei esse desafio para treinar minhas habilidades como front-end.
 
+![homepage](https://github.com/PauloLuccas/Trigg/blob/master/src/assets/images/instagram-03.png)
+
 ## 🚀 Tecnologias utilizadas
 
 As principais tecnologias utilizadas para a construção dessa API foram:
